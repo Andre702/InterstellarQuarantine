@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         }
 
         // Log the direction upon pressing the spacebar
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             Debug.Log("Current Direction: " + GetDirectionAsString());
         }
