@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     public int iD;
 
     public Sprite ogSprite;
-    public Sprite[] infectedStages;
-    public bool infected = false;
+    public Sprite[] infectedSprites;
     public int infectionStage = 0;
+
+    public int incommingInfectionStage = 0;
 
     private int x;
     private int y;
@@ -18,25 +20,32 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     [SerializeField]
     private Transform highlight;
     [SerializeField]
-    private Transform marker;
+    private Image marker;
     private CanvasGroup highlightCG;
 
     void Start()
     {
         highlightCG = highlight.GetComponent<CanvasGroup>();
+        UpdateSpriteMarker();
     }
 
-    //public void UpdateSprite()
-    //{
-    //    if (infected)
-    //    {
-    //        GetComponent<SpriteRenderer>().sprite = infectedSprite;
-    //    }
-    //    else
-    //    {
-    //        GetComponent<SpriteRenderer>().sprite = ogSprite;
-    //    }
-    //}
+    public void UpdateSpriteMarker()
+    {
+        infectionStage += incommingInfectionStage;
+        if (infectionStage > 3) { infectionStage = 3; }
+
+        incommingInfectionStage = 0;
+
+        if (infectionStage <= 0)
+        {
+            marker.GetComponent<CanvasGroup>().alpha = 0;
+        }
+        else
+        {
+            marker.GetComponent<CanvasGroup>().alpha = 1;
+        }
+        marker.sprite = infectedSprites[infectionStage];
+    }
 
     public void ChangeStage(int infectionStage)
     {
@@ -45,7 +54,7 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     public void ProgressStage()
     {
-        this.infectionStage += 1;
+        this.incommingInfectionStage += 1;
     }
 
     public void SetCoordinates(int x, int y)
@@ -72,5 +81,8 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log($"UI Tile clicked on coordinates: ({x}, {y})");
+        ProgressStage();
+        UpdateSpriteMarker();
+
     }
 }
