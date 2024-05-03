@@ -22,8 +22,9 @@ public class GridManager : MonoBehaviour
 
     public Dictionary<(int x, int y), Tile> tileSet;
 
-    public delegate void PostSpreadUpdateHandler();
-    public static event PostSpreadUpdateHandler PostSprteadUpdate;
+
+
+
 
 
     private void Start()
@@ -67,7 +68,8 @@ public class GridManager : MonoBehaviour
 
                 newTile.GetComponent<Tile>().SetCoordinates(x, y);
 
-                PostSprteadUpdate += newTile.UpdateSpriteMarker;
+                GameManager.OnPostSprteadUpdate += newTile.UpdateTile;
+                GameManager.OnNextTurn += newTile.NewTurn;
 
                 tileSet[new (x, y)] = newTile;
             }
@@ -130,7 +132,7 @@ public class GridManager : MonoBehaviour
 
                 newTile.GetComponent<Tile>().SetCoordinates(x, y);
 
-                PostSprteadUpdate += newTile.UpdateSpriteMarker;
+                GameManager.OnPostSprteadUpdate += newTile.UpdateTile;
 
                 tileSet[new(x, y)] = newTile;
             }
@@ -186,14 +188,12 @@ public class GridManager : MonoBehaviour
             {
                 Tile targetTile = GetTile(x, y);
 
-                if (targetTile != null && targetTile.infectionStage > 0)
+                if (targetTile != null && targetTile.infecting) // change infection stage to infecting)
                 {
                     InfectTile(x + (int)direction.x, y + (int)direction.y);
                 }
             }
         }
-
-        PostSprteadUpdate();
     }
 
     public void InfectTile(int x, int y)
@@ -201,7 +201,7 @@ public class GridManager : MonoBehaviour
         Tile selectedTile = GetTile(x, y);
         if (selectedTile != null)
         {
-            selectedTile.ProgressStage();
+            selectedTile.Infect();
         }
         
     }
@@ -215,7 +215,8 @@ public class GridManager : MonoBehaviour
                 Tile targetTile = GetTile(x, y);
                 if (targetTile != null)
                 {
-                    PostSprteadUpdate -= GetTile(x, y).UpdateSpriteMarker;
+                    GameManager.OnPostSprteadUpdate -= GetTile(x, y).UpdateTile;
+                    GameManager.OnNextTurn -= GetTile(x, y).NewTurn;
                 }
                 
             }

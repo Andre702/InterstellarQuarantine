@@ -7,6 +7,12 @@ public class GameManager : MonoBehaviour
     public GridManager grid;
     private Vector2 direction;
 
+    public delegate void NextTurnHandler();
+    public static event NextTurnHandler OnNextTurn;
+
+    public delegate void PostSpreadUpdateHandler();
+    public static event PostSpreadUpdateHandler OnPostSprteadUpdate;
+
     void Start()
     {
         
@@ -20,7 +26,7 @@ public class GameManager : MonoBehaviour
 
         if (horizontalInput != 0 || verticalInput != 0)
         {
-            direction = new Vector2(horizontalInput, verticalInput).normalized;
+            direction = new Vector2(horizontalInput, verticalInput);
         }
 
         // Log the direction upon pressing the spacebar
@@ -28,6 +34,12 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("Current Direction: " + GetDirectionAsString());
             grid.SpreadDisease1(direction);
+        }
+
+        if (Input.GetKeyDown(KeyCode.End))
+        {
+            OnNextTurn();
+            OnPostSprteadUpdate();
         }
     }
 
@@ -41,13 +53,13 @@ public class GameManager : MonoBehaviour
             return "Left";
         else if (direction == Vector2.right)
             return "Right";
-        else if (direction == (Vector2.up + Vector2.left).normalized)
+        else if (direction == (Vector2.up + Vector2.left))
             return "UpLeft";
-        else if (direction == (Vector2.up + Vector2.right).normalized)
+        else if (direction == (Vector2.up + Vector2.right))
             return "UpRight";
-        else if (direction == (Vector2.down + Vector2.left).normalized)
+        else if (direction == (Vector2.down + Vector2.left))
             return "DownLeft";
-        else if (direction == (Vector2.down + Vector2.right).normalized)
+        else if (direction == (Vector2.down + Vector2.right))
             return "DownRight";
         else
             return "No specific direction";

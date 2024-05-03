@@ -8,11 +8,11 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 {
     public int iD;
 
-    public Sprite ogSprite;
     public Sprite[] infectedSprites;
     public int infectionStage = 0;
 
     public int incommingInfectionStage = 0;
+    public bool infecting;
 
     private int x;
     private int y;
@@ -20,31 +20,55 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     [SerializeField]
     private Transform highlight;
     [SerializeField]
-    private Image marker;
+    private Image infectionSprite;
+    [SerializeField]
+    private Transform infectingMarker;
     private CanvasGroup highlightCG;
 
     void Start()
     {
         highlightCG = highlight.GetComponent<CanvasGroup>();
-        UpdateSpriteMarker();
+        UpdateTile();
     }
 
-    public void UpdateSpriteMarker()
+    public void UpdateTile()
     {
-        infectionStage += incommingInfectionStage;
-        if (infectionStage > 3) { infectionStage = 3; }
+        if (incommingInfectionStage > 0)
+        {
+            infectionStage += incommingInfectionStage;
+            infecting = true;
+            infectingMarker.gameObject.SetActive(true);
 
-        incommingInfectionStage = 0;
+            incommingInfectionStage = 0;
+        }
+
+        if (infectionStage > 3) { infectionStage = 3; }
 
         if (infectionStage <= 0)
         {
-            marker.GetComponent<CanvasGroup>().alpha = 0;
+            // healthy
+            infectionSprite.GetComponent<CanvasGroup>().alpha = 0;
         }
         else
         {
-            marker.GetComponent<CanvasGroup>().alpha = 1;
+            // sick
+            infectionSprite.GetComponent<CanvasGroup>().alpha = 1;
         }
-        marker.sprite = infectedSprites[infectionStage];
+        infectionSprite.sprite = infectedSprites[infectionStage];
+    }
+
+    public void NewTurn()
+    {
+        if (infecting)
+        {
+            infecting = false;
+            infectingMarker.gameObject.SetActive(false);
+        }
+    }
+
+    public void Infect()
+    {
+        this.incommingInfectionStage += 1;
     }
 
     public void ChangeStage(int infectionStage)
@@ -52,10 +76,6 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
         this.infectionStage = infectionStage;
     }
 
-    public void ProgressStage()
-    {
-        this.incommingInfectionStage += 1;
-    }
 
     public void SetCoordinates(int x, int y)
     {
@@ -81,8 +101,8 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log($"UI Tile clicked on coordinates: ({x}, {y})");
-        ProgressStage();
-        UpdateSpriteMarker();
+        Infect();
+        UpdateTile();
 
     }
 }
