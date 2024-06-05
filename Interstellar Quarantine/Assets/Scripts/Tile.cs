@@ -13,6 +13,9 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     public int incommingInfectionStage = 0;
     public bool infecting;
+    public bool canBeInfected = true;
+
+    public bool medicPresent = false;
 
     private int x;
     private int y;
@@ -23,7 +26,10 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     private Image infectionSprite;
     [SerializeField]
     private Transform infectingMarker;
+    [SerializeField]
+    private Transform MedicMarker;
     private CanvasGroup highlightCG;
+    
 
     void Start()
     {
@@ -33,7 +39,7 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
 
     public void UpdateTile()
     {
-        if (incommingInfectionStage > 0)
+        if (incommingInfectionStage > 0 && this.canBeInfected)
         {
             infectionStage += incommingInfectionStage;
             infecting = true;
@@ -54,6 +60,7 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
             // sick
             infectionSprite.GetComponent<CanvasGroup>().alpha = 1;
         }
+
         infectionSprite.sprite = infectedSprites[infectionStage];
     }
 
@@ -64,18 +71,27 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
             infecting = false;
             infectingMarker.gameObject.SetActive(false);
         }
+
+        if (medicPresent && GameManager.instance.blockingDirections.Count > 7)
+        {
+            GameManager.instance.riotMeter += 0.3f;
+        }
+
+        if (infectionStage >= 3)
+        {
+            GameManager.instance.dead += 1;
+        }
     }
 
     public void Infect()
     {
-        this.incommingInfectionStage += 1;
+        this.incommingInfectionStage = 1;
     }
 
     public void ChangeStage(int infectionStage)
     {
         this.infectionStage = infectionStage;
     }
-
 
     public void SetCoordinates(int x, int y)
     {
@@ -86,6 +102,12 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     private void SetHighlight(float alpha)
     {
         highlightCG.alpha = alpha;
+    }
+
+    public void MedicDispatched(bool placed)
+    {
+        medicPresent = placed;
+        MedicMarker.gameObject.SetActive(placed);
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -101,8 +123,9 @@ public class Tile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IP
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log($"UI Tile clicked on coordinates: ({x}, {y})");
-        Infect();
-        UpdateTile();
-
+        if (GameManager.instance.medicDispatching)
+        {
+            GridManager.instance.DispatchMedics(x, y);
+        }
     }
 }

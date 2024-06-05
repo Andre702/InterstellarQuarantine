@@ -1,0 +1,20 @@
+:: Doctor {"position":"550,600","size":"100,100"}
+As you enter the medbay room, you find yourself face to face with the most competent doctor on this ship. She looks at you with a mix of concern and determination.
+
+You came here looking for her advice.
+
+"With limited medic crews we should either enforce strict rules on wearing [[masks]] at all times to prevent the spread of the virus, or we impose strict [[hygiene]] measures on crew members in a chosen sector. There is also an option to order a full [[quarantine]]. We need to act fast and decisively to contain the situation and protect the crew."
+
+:: masks {"position":"550,600","size":"100,100"}
+You have chosen to distribute masks among the crew. Your medic groups will now impose this rule whenever you place them.
+Masks will block the spread of the disease to adjacent tiles (connected by walls)  
+
+:: hygiene {"position":"550,600","size":"100,100"}
+You have chosen to impose strict hygienerules among the crew. Your medic groups will now impose this rule whenever you place them.
+
+Hygiene will block the spread of the disease to neighboring tiles (connected by corners)
+
+:: quarantine {"position":"550,600","size":"100,100"}
+You have chosen to impose full quarantine protocol among the crew. Your medic groups will now impose this rule whenever you place them.
+
+Quarantine will block the spread of the disease in all directions. However, it will raise tensions among the crew.

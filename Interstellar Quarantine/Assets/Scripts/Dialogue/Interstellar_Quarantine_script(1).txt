@@ -1,0 +1,1528 @@
+:: StoryTitle
+Interstellar Quarantine
+
+:: StoryData
+{
+ "ifid": "28D24D9E-CB9E-4E99-931E-40314A2737D2",
+ "format": "Entweedle",
+ "format-version": "1.1.1",
+ "startnode": "104",
+ "zoom": "0.6",
+ "start": "Title",
+ "tag-colors": {
+  "Start": "green"
+ }
+}
+
+:: UserScript [script]
+
+
+:: UserStylesheet [stylesheet]
+
+
+:: It begins {"position":"550,600","size":"100,100"}
+Your eyes flutter open. A curved glass surface inches from your face shows you a distorted version of yourself -- somehow both squeezed and stretched at the same time. It reminds you of a funhouse mirror you saw when you were a child, but it also feels somehow like a perfect reflection of your current mental state. You feel bewildered and confused. Questions race through your mind.
+
+Where are you? How did you get here? Most distressing of all: who are you?
+
+A soft hiss of gas escaping a pressurized vessel emanates from the edges of the glass, and it slowly lifts away from you. Beyond the glass, you notice a shadowy figure [[peering down at you.]]
+
+
+
+
+:: peering down at you. {"position":"750,600","size":"100,100"}
+As soon as the glass is out of the way, the figure reaches down and places two fingers on your neck. The fingers are cool to the touch, but firm and sure in their actions. After a few seconds, the hand moves to your eyes as a flashlight suddenly blinds you, one eye at a time. 
+
+The figure looks up to another person just out of sight, and you hear the low, sonorous voice of an older woman. "Everything seems to be in order here. We'll join you in the briefing room momentarily," she says. She looks down at you again, and you can hear a caring tenderness.
+
+"Sorry to [[wake you so early]], but you're [[needed]]."
+
+You can tell from her tone that she [[trusts you]], but you don't know why.
+
+:: needed {"position":"950,700","size":"100,100"}
+"I'm needed?" you ask, groggily. 
+
+She replies with a curt nod that you barely see in the dim light. "The ship's manifest lists you as one of our main [[specialists]]. And your particular specialty has come into direct need of late."
+
+:: wake you so early {"position":"950,500","size":"100,100"}
+"Wake me early?" you ask, still confused at your current circumstances. "Wake from what? Early for who?" You barely recognize your own voice as it croaks out disjointed sentences.
+
+"Yes," she replies, "you've been asleep for some time now." She reaches out of your view, then brings back a bottle of clear liquid and hands it to you. "Drink." She says.
+
+As you dutifully (and thankfully) obey this instruction, she continues, "You were meant to continue sleeping for another [[23.6 Earth years]], but we've encountered a [[problem]], and I'm afraid that you're the only one of our [[specialists]] we have trained in this matter."
+
+
+
+:: trusts you {"position":"950,600","size":"100,100"}
+"Do... do I know you? Have we met?" your voice is weak and your throat is dry. The words croak out into the dim room. 
+
+She leans forward into a pool of light, revealing a slim face traced with faint lines of care and worry framed by wild locks of graying hair. You vaguely recognize her as one remembers a figure from a dream, but all of your memories are hazy right now. 
+
+She reaches out, hands you a glass of cool, refreshing water and says, "Drink this."
+
+You gratefully take a sip as she continues, "I'm doctor Dogood. You do know me, and we have met before, long ago. Very long ago, actually. You've been asleep for some time. We met just before we were both put into cryo-sleep. They woke me about five years ago to walk the ring, serving my stint as ship's doctor. You were supposed to sleep for another [[23.6 Earth years]]." 
+
+:: 23.6 Earth years {"position":"1150,300","size":"100,100"}
+You spit out some of the water you were trying to drink.
+
+Your mind reels at this information. 
+
+"I'm supposed to sleep what now?" you croak.
+
+"Yes, you're still supposed to be asleep," she says, "But we had to wake you up early. You've only been asleep about 75 years. We're still far from our [[destination]], but we need you now."
+
+Apparently, you still don't look like your questions have been answered, so after a brief pause, she continues:
+
+"I know what you're going through. Waking from cryo-sleep can be disorientating. The symptoms are temporary, though I know it can be kind of terrifying not knowing [[who]] or [[where you are]]. I was awoken about five years ago to serve my stint as ship's doctor. It took me fully a week to remember exactly who I was and how exactly to do my job. Usually, it isn't a problem as we overlap waking times for doctors on the ring."
+
+:: problem {"position":"1550,500","size":"100,100"}
+"So, what's this problem you're having, and what does it have to do with me?" you ask.
+
+In the dim light, you see her lips tighten into a thin line, and she pauses before she speaks again.
+
+"You probably don't remember this yet, due to the cryo-sleep sickness, but before we boarded the Prima-Hindus, everyone quarantined for months. We wanted to make sure that nothing contagious made it on board. It appeared to have worked. For 75 years, we've had no colds, flus, STIs, or infections of any kind. People get bumps and scrapes, but aside from the occasional cancer from cosmic radiation, no one has been sick at all. My job as ship's doctor has been pretty boring, if I'm going to be honest." 
+
+She pauses and sighs before [[continuing]]. 
+
+
+
+:: destination {"position":"1350,500","size":"100,100"}
+"So, where are we going?" you ask, still a bit incredulous.
+
+"We're headed to Alpha Centauri," she says in a matter-of-fact tone. "Specifically, we're headed to the planet Proxima Centauri b, a Super Earth orbiting a red dwarf star. We'll be landing in a couple decades with the goal of establishing a colony on the surface. You were supposed to stay sleeping until our arrival along with all the other [[specialists]]. Unfortunately, an unexpected [[problem]] has arisen, and we need your specific expertise."
+
+:: who {"position":"1350,600","size":"100,100"}
+"This may seem like an odd question," you say, "but can you remind me who I am?"
+
+"That isn't an odd question at all," she responds, "Cryo-sleep does a number on the mental faculties. You're our ship's specialist on infectious diseases, and right now we have a [[problem]] your specific expertise can help solve."
+
+:: where you are {"position":"1350,700","size":"100,100"}
+You're still attempting to take all of this information in. You brain latches onto the question that seems most important at the moment: "Where am I?" you ask.
+
+"You're on the Prima-Hindus," she says in a matter-of-fact tone that makes you wonder if you should have asked this question in the first place - like it's something you should already know. 
+
+To your addled mind, questions linger, but, to your great relief, she continues, "That'll bring up another series of questions, so I'll go ahead and answer those while I'm at it," she says, and you can see that she's preparing a speech long-rehearsed. You aren't the first person she's woken up...
+
+"This is a generation ship bound for Proxima Centauri B, a super-Earth type planet orbiting the red dwarf star with which it shares a name. Currently, you are in the cryo-chamber in which a great number of well-respected scientists, researchers, inventors, engineers and doctors have been frozen in time so that they may use their knowledge upon our arrival in order to ensure the continued existence of humanity. The cryo-chamber rests in the central fuselage of the Prima-Hindus along with most of the fuel, seed banks, data banks, and reserves of rare metals. Here in the central fuselage, there is no spin, and therefore no artificial gravity. When you've recovered somewhat from cryo-sickness, you'll have a chance to explore the ring where you can experience something like Earth gravity. I wouldn't recommend it until you've been out of the cryo-pod for at least a week, though..." she pauses, realizing that some of her memorized speech isn't useful or instructive for you [[at this moment.]] 
+
+
+
+:: specialists {"position":"1150,600","size":"100,100"}
+At the mention of "specialists," you have a hazy recollection of your days at university peering through microscopes and poring over charts in dozens of research papers. You begin to remember [[who]] you are...
+
+:: continuing {"position":"1750,500","size":"100,100"}
+"Unfortunately, evolution hasn't played nicely. Something new and deadly has arisen among those who walk the ring. It's some sort of plague, and it's spreading. Fast. We first noticed it a while ago, but it didn't seem like a problem because no one who got sick was facing any real problems, but then we noticed that people could catch this disease multiple times, and it got more dangerous with every infection. It seems that people can survive their first two encounters with this disease, but the third infection //always// proves deadly."
+
+Her voice is now stern, her face grim in the dim shadows.
+
+"As our ship's only expert on infectious diseases, we chose to wake you to help with this problem. I know it isn't ideal, as you've yet to recover all of your memories, but there isn't time to let you recover from cryo-sickness, and we need you now."
+
+She extends an arm out to you and asks, "Will you [[come with me]] or will you [[stay]] here and leave us to our fate?"
+
+:: at this moment. {"position":"1550,700","size":"100,100"}
+"Listen, that doesn't matter now," she says. "We're on a ship three kilometers in diameter, hurtling through space at about a quarter the speed of light. What does matter now is that we have a [[problem]] and help is three light years away.
+
+:: come with me {"position":"1950,500","size":"100,100"}
+You reach up and she grasps your hand gently. With a slight pull, you float out of your pod. You realize now that she hasn't been standing in front of you, but floating, just as you now float toward her. As you approach, she shifts her weight, places a foot on the pod, and with a gentle kick, she floats toward a door you now see open at the other end of the chamber. 
+
+Looking around, you see dozens of other pods just like the one you emerged from. Inside each of them, you can see a shadowy form, but the dim light of the chamber doesn't reveal any features. Still, you know that you must have met every one of these people before you went to sleep. These were meant to be your coworkers upon arrival. They are all specialists in their own fields, just like you. Unlike you, however, their specialties were not suited to this moment. Yours are. 
+
+You've trained for this moment. Though the memories are hazy, like viewing a movie through thick fog. You hope that the doctor is right, that your memories will return with time, but right now you can only focus on the [[immediate future]]. 
+
+
+
+:: stay {"position":"1750,300","size":"100,100"}
+"This sounds like a 'you' problem to me. I seem to remember a contract saying that I would wake up on a new planet and help build a new civilization. I didn't sign up for this kind of work," you grumble and reach up to [[close the pod lid]].
+
+"You don't like being woken up, I understand," she says, calmly holding the pod lid open. "It's information overload from the get-go, and we're asking a lot from you. Let me get you a cup of coffee and you can think it over. If you still don't want to help in a few hours, we'll put you right back in the pod, and you can go back to sleep. Until then -- please -- [[come with me]]. Help us."
+
+
+
+:: close the pod lid {"position":"1750,100","size":"100,100"}
+"Sod this," you say, and pull the pod closed. 
+
+A dozen needles prod you all around your body, preparing you for another round of cryo-sleep. You feel the air around you grow crisp as the coolant begins to do its work. You're still drowsy from waking so recently, so you face no effort closing your eyes. The inky black before you feels like a dream, a prophecy, but you brush the feeling aside. Next time you open your eyes, you think, it will be to the light of a red dwarf star.
+
+From outside the pod, Dr. Dogood sighs. Against her will, tears well up in her eyes as she makes her way back to the ring. She knows, without a cure, everyone on the Prima-Hindus will die. Most will die of this new plague, and once they're gone, everyone now in cryo-sleep will remain there forever. No one will wake them. No one will be alive to maneuver the craft into orbit around the planet. If the ship isn't captured by the star's gravity, it will probably drift forever through the void. One by one, the ship's systems will fail. The pods are the most protected, they'll last the longest, but entropy promises an end to all things. 
+
+"What a waste," she thinks as she wipes the tears from her eyes.
+
+As the elevator brings her down to the surface of the ring, she dons her best caring smile, and goes forth to tend to the condemned.
+
+[[The End]]
+
+:: The End {"position":"550,200","size":"100,100"}
+Thank you for playing Interstellar Quarantine!
+I hope you've enjoyed it. Click the button below to play again!
+
+[[Try again? ->Set up]]
+
+[[Credits]]
+
+:: immediate future {"position":"2150,500","size":"100,100"}
+You are less sure of your movements as the doctor was, and when you push yourself toward the door, you find yourself in an uncontrolled spin that exacerbates the nausea you felt upon waking. You're just about to lose control of your interals when you pass through the door and find yourself in the grasp of two very strong, firm hands which stop you mid-flight.
+
+"Ha! Sleepers can never fly!" a deep baritone rumbles forth in laughter. 
+
+As the hands place you gently, but firmly on the ground, you look up to see an absurdly muscular man with a broad, overly-white smile framed by the squarest jaw you've ever seen. He looks like a caracature drawn in hyper-realist style. He's wearing a white uniform and an anachronistic 18th-century British naval captain's hat tipped at an angle. 
+
+"Wakey, wakey, noob! Doc says you're here to help us. We don't need the help, but Doc says you're important, so here you are." He smiles at you again, though you begin to get the sense that the smile is more-or-less permanent, and doesn't indicate how he feels about you. "So," he continues, "[[Whatcha gonna do?]] I've already got some ideas cookin' up here," he says, tapping his temple. "Don't get in my way, and we'll be friends. If you'd like any advice, I'm easy to find." He laughs, and gracefully floats himself across the room to an adjoining room labeled "Captain's Quarters."
+
+
+:: Whatcha gonna do? {"position":"2350,500","size":"100,100"}
+You look to Dr. Dogood and see her steady, measured reaction. You can tell she's been dealing with this man for some time. 
+
+"First things first: put these on," she says as she hands you a pair of boots with metallic soles. "These are mag boots. They'll allow you to move around and work in the [[labs]] here on the drive module where we currently are. Travel between here and the ring is restricted for safety reasons. If you need something done on the ring, we've given you a team of medic bots over which you'll have complete control. The control panel for them is in the lab."
+
+"The captain will also be making some decisions as he doesn't think that you're necessary. He's trying to solve the crisis himself... You... may want to expend some resources to [[prevent some of his actions...]]
+
+:: labs {"position":"2550,400","size":"100,100"}
+<!--This should ensure that the player only sees this initial text once, but still has the ability to return to this page later-->
+(if: $lab is 0)
+[
+(set: $lab to it +1)
+
+"Can you show me the labs?" you ask. 
+
+Perhaps being in the correct environment will help you get in the mood for research and stir up some of the memories you'll need to deal with this situation.
+
+The doctor nods, and leads you down the hallway to an internal airlock. She gestures to a panel next to the door and says, "When you want to get in, press your hand here. Before departure, we got all the sleepers' bio signatures, so you're already in the system. Walkers born on the ring don't have access to some of the facilities on the drive module since they were born after the system was initialized. That means you won't be interrupted while in the lab. You can work in peace."
+
+Through the windows of the airlock, you can see the gleaming white of a clean room. You can see from here that everything is still wrapped up in factory packaging. 
+
+"This has never been touched," you say.
+
+"Yes," she says, "the labs were meant to be used upon arrival at Proxima Centauri to study our new home. We never expected to need them before that. I guess that's one of the major issues with being the first ship to ever try a trip like this. We get to learn on the job."
+
+(if: $stopPlans is 0)
+[
+"One thing you'll need to learn is how to deal with the captain. I know he said you'd be friends, but trust me, he isn't our friend. You'll probably need to expend some resources from time to time to prevent him from doing something... [[untoward ->prevent some of his actions...]]." As she says this last word, her face becomes grim. 
+]
+(else:)
+[
+"Well," she continues, "let's show you around." 
+
+She presses her hand to the palm reader and the first airlock door hisses open, allowing the two of you [[inside the airlock]]. 
+]
+]
+
+(else:)
+[
+You return to the lab and press your hand to the palm reader. You hear the soft hiss of hydraulics as the door slides open, allowing you [[inside the airlock]].
+]
+
+
+
+:: prevent some of his actions... {"position":"2550,600","size":"100,100"}
+(if: $stopPlans is 0)
+[
+(set: $stopPlans to it +1)
+
+"You said we may need to prevent his actions?" you ask.
+
+"The captain has his own ideas," she says grimly, "They aren't usually good ideas from a scientific standpoint, though he does tend to know how to keep the walkers out on the ring happy. Try to work with him if you can. He's more or less our only connection to those who were born on the ship. They don't have much connection with us anymore, and a lot of them have become [[distrustful]] of sleepers like you and me."
+
+(if: $lab is 0)
+[
+"I can show you to the [[labs]] now, if you'd like," she says, changing the topic.
+]
+(else:)
+[
+"Would you like to return to the [[lab ->labs]]?" she says, changing the topic.
+]
+]
+
+
+
+:: Set up {"position":"550,400","size":"100,100"}
+(set: $round to 0)
+(set: $research to 0)
+(set: $morale to 100)
+
+
+(set: $lab to 0)
+
+(set: $stopPlans to 0)
+
+(set: $main to 0)
+
+
+
+Darkness.
+
+Cold.
+
+A low thrum permeates your being.
+
+[[It begins]].
+
+
+:: distrustful {"position":"2675,600","size":"100,100"}
+"Why would they be distrustful?" you ask.
+
+"It's complicated," she says with a sigh, "When the ship was first launched, the plan was to have sleepers stay asleep until arrival with a few exceptions. Doctors, like myself, and some engineers wake for five years at a time to walk the ring and help people out. It was thought that this would be easier than trying to establish some sort of higher education on the ring while in transit. In addition, ship protocols deliver sleepers an inordinant amount of power over the ship. We're the only ones with shipwide access, for example. It makes sense from a theoretical point of view."
+
+You can see from her expression that not everything has gone to plan.
+
+She continues, "In reality, however, it sows dissent. Most of the people out there on the ring were born there. They never knew the pull of planetary gravity or the smell of fresh-tilled earth or the warmth of the sun on their skin. Our home is just a story to them. Our destination is a dream many of them won't live to see. The only life they've ever known or will ever know is there on the ring. They see us up here in an ivory tower, making decisions that affect their lives in ways not all of them agree with."
+
+"They don't have [[any power at all]]?" you ask, incredulous.
+
+
+
+:: any power at all {"position":"2800,600","size":"100,100"}
+She breathes deeply before continuing again, "The captain is elected by the people. He is their voice for all intents and purposes. Unfortunately, they've elected a demagogue. Mostly, he does things just to make people happy even if it puts people at risk. Most of the time, this just means that I have a few more patients, but now... now we have something to fear."
+
+She's silent for some time as you absorb this information. Despite the lack of gravity, you can see her assume a slight dejected slump, an affect left over from growing up on Earth. After a moment, she straightens up and looks to you again and says, "Let's get back to the [[labs]]."
+
+:: inside the airlock {"position":"2350,800","size":"100,100"}
+The door closes behind you with another soft hiss and a satisfying clunk from the locking mechanism. As the airlock seals, vents above you push laminar streams of air over your body, freeing you of particulate pollutants you might have tracked into the clean room before you. The feeling is familiar, and it stirs memories from your days in the lab back on Earth. You remember from long training and experience to expect the next step, and you shut your eyes just before your body is sprayed from every direction with antiseptic chemicals. 
+
+Finally, systematically cleansed of foreign bodies, you hear another hiss as the second airlock door glides open before you, revealing the interior of the [[lab ->lab2]]. 
+
+:: lab2 {"position":"100,1300","size":"100,100"}
+"And here you are," the doctor says, "the best lab for three light years in any direction. All to yourself. For research, you have all the equipment you'll need in here."
+
+You look around and see every piece of scientific equipment you could ask for, along with a few you wouldn't know how to ask for. Your fingers tingle with the haptic memory of manipulating these devices. Memories of long hours in such labs flit through your subconscious. It all feels so familiar, yet so foreign and hazy, like a dream upon waking. 
+
+In the corner of the room, you see [[another door]], this one without an airlock. Above the entrance, there is a sign labeled with a simple drawing of a bed and a shower head.
+
+
+
+:: main {"position":"100,2100","size":"100,100"}
+{
+(if: $cancel is true)[(set: $captainMorale to it-30)(set: $cancel to false)]
+(else:)[(set: $captainMorale to it+10)]
+
+<!--Check Morale-->
+(if: $morale is >= 70)[(set: $moraleText to "happy")]
+(else-if: $morale is >= 50)[(set: $moraleText to "feeling okay")]
+(else-if: $morale is >= 30)[(set: $moraleText to "unhappy")]
+(else-if: $morale is >= 10)[(set: $moraleText to "terrified")]
+(else-if: $morale is < 10)[(set: $moraleText to "outraged")]
+
+<!--Check population-->
+(if: $population is >= 900)[(set: $popText to "10%")]
+(else-if: $population is >= 800)[(set: $popText to "20%")]
+(else-if: $population is >= 700)[(set: $popText to "30%")]
+(else-if: $population is >= 600)[(set: $popText to "40%")]
+(else-if: $population is >= 500)[(set: $popText to "50%")]
+(else-if: $population is >= 400)[(set: $popText to "60%")]
+(else-if: $population is >= 300)[(set: $popText to "70%")]
+(else-if: $population is >= 200)[(set: $popText to "80%")]
+(else-if: $population is >= 100)[(set: $popText to "90%")]
+(else-if: $population is < 100)[(set: $popText to "nearly 100%")]}
+
+<!--First time through this node-->
+(if: $main is 0)
+[
+
+{(set: $captainDead to false)
+(set: $moraleText to "happy")
+(set: $captainMorale to 100)
+(set: $main to it+1)
+(set: $round to it+1)
+(set: $population to 1000)[]
+(set: $morale to 100)}
+
+You find yourself alone in the lab with every possible option in front of you. 
+
+On the far wall, a viewscreen is playing a news broadcast, and it flicks over to the captain's unending grin. It appears he's delivering a speech to the populace of the ring. The sound is off, but you can still [[read the news feed->Read news feed]] scroll under the picture.
+]
+
+{
+<!--Return trip + checking for captain's mood-->
+(else-if: $main > 0 and $captainMorale > 0)
+[
+(set: $round to it+1)
+You unstrap yourself from the bunk and gently push yourself to float over to the coffee and nutrient paste machine to start your day. The nutrient paste is just barely palateable, but the coffee helps you choke it down.
+
+The constant dull rumbling thrum of the ship's engines continues to permeate your being.
+
+As you float into the lab, the view screen lights up to show you the day's news. You[[ look over to it->Read news feed]] to see what if there's anything you need to know.
+]
+}
+
+(else-if: $main > 0 and $captainMorale <= 0)
+[
+(set: $round to it+1)
+*THUD*
+(live: 0.7s)[*THUD*      			(stop:)]
+(live: 1.2s)[(text-rotate-z:11)[*THUD*			](stop:)]
+(live: 1.7s)[(text-rotate-z:355)[*THUD*			](stop:)]
+(live: 2.5s)[(text-style:"shudder") + (text-colour:red)[*THUD*			](stop:)]
+(live: 4s)[
+You wake up to the sound of heavy pounding nearby. A light blinks madly on a nearby comms console indicating that someone is trying to call you. It would have woken you, but you set the comms to silent the night before to keep anything from distracting you.
+
+*THUD*]
+(live: 6s)[
+
+The banging continues as you press the [[open comms button.]] ]
+]
+
+
+
+
+:: Research {"position":"2400,1900","size":"100,100"}
+{(if: $research is 0)[You open the research tab to select a direct order. You know that the first order of operations is to [[find out what kind of disease we're working with->research1]]. To do so, you will send out a med bot to collect samples to study. Once you have those, you'll be able to run diagnostic tests on the samples here in the lab.]
+(else-if: $research is 1)[Having run diagnostic tests the previous day, you have some answers, but questions remain. You need to [[find how the disease spreads->research2]]. Once you know that, you'll be able to better employ specific prevention methods.]
+(else-if: $research is 2)[ You've discovered the way the disease spreads and run its DNA through the auto-analyzer, but you still need to [[find the origins of the disease->research3]]. Knowing this will help you prevent the disease from arising again if the source is still present in the ship.]
+(else-if: $research is 3)[ You've located the origins of the disease and even managed to trace back the spread to find some of the original survivors. You need to know what kept them alive, so you send a med bot out to [[take samples from sick patients who lived.->research4]] Knowing this will help you develop a vaccine.]
+(else-if: $research is 4)[The microsynthesizers have been working overnight to produce your first vaccine sample. You still need to [[test the vaccine.->research5]] To do this, you insert the vaccine into the pneumatic tube and deliver it to the waiting med bot on the ring.]
+(else-if: $research is 5)[You're hoping beyond hope that this new vaccine will be safe and effective. It's a question you have to answer before you can distribute it to everyone on the ring. For now, you need to [[monitor the test subjects.->research6]] If they have any ill effects, you'll need to start again. You cross your fingers that they'll fare well.]
+(else-if: $research is 6)[The test subjects are healthy and hale! The vaccine is a success, but it won't do anything if you don't [[distribute it. ->research7]] It's time, you think, to end this. It's time to save the ship.]}
+
+:: Command Medic Bots {"position":"1800,2100","size":"100,100"}
+(if: $medic > 0)[
+You look at the screen on the bot control panel and see a number of commands available to you:
+
+(if: $researchBool is false)[ [[Research]]](else:)[]
+(if: $masking is false)[ [[EnforceMasking]]](else:)[]
+(if: $quarantine is false)[ [[EnforceQuarantine]]](else:)[]
+(if: $tend is false)[ [[Tend to the dying]]](else:)[]
+[[Do nothing]]
+]
+(else:)
+[
+The display remains blank. It appears that there are no available medical robots left to command today.
+
+You float yourself over to the microanalyzers and busy yourself with diagnosis and treatment options. It's not just the bots who are needed.
+
+Luckily, with every day that passes, you remember a little bit more about how to use these machines, what their quirks and intricacies are. You work until you're exhausted. If there were gravity, you would collapse. 
+
+You know there is more work to be done, but you won't get any more completed today, so you head out of the lab and [[go to bed]].
+]
+
+
+:: Read news feed {"position":"500,2400","size":"100,100"}
+(set: $captainPlan to (random: 1, 12))
+
+<!--Check Morale-->
+In the top right corner of the screen, you see a section labeled "Today's poll." It shows an emoji indicating that most people polled that day are $moraleText. 
+
+{
+(if: $population is 1000)[]
+(else:)[
+In the top left corner, another infographic shows the progress of the disease. It appears that around $popText of the population has perished from the illness. ]
+}
+
+In the center of the screen, you see the captain's unending smile gleam across the newsfeed. He's been making a speech to the people on the ship. Below the video, a news ticker summarizes the ideas presented in the speech:
+
+{
+(if: $captainPlan is 1)[The captain says he's going to [[push some sick citizens out of an airlock->Space some sick people]]!]
+(else-if: $captainPlan is 2)[The captain says he's going to hold a [[pizza party ->Pizza Party]]!]
+(else-if: $captainPlan is 3)[The captain says he's going to hold a [[dance party ->Dance Party]]!]
+(else-if: $captainPlan is 4)[The captain says he's going to host a [[sporting event->Sports Event]]!]
+(else-if: $captainPlan is 5)[The captain says he's going to host a [[beerpong tournament]]!]
+(else-if: $captainPlan is 6)[The captain says he's going to [[inject people with bleach]]!]
+(else-if: $captainPlan is 7)[The captain says he's going to [[increase gravity ->Increase Gravity]] on the ring!]
+(else-if: $captainPlan is 8)[The captain says he's going to host a [[karaoke night]]!]
+(else-if: $captainPlan is 9)[The captain says he's going to give a [[motivational speech]]!]
+(else-if: $captainPlan is 10)[The captain says he's going to have the [[kids do a play ->Kids do a play]]!]
+(else-if: $captainPlan is 11)[The captain says he's going to [[expose some people to the reactor to clease their bodies of this illness ->Expose some people to the reactor to clean their bodies]]!]
+(else-if: $captainPlan is 12)[The captain says he's going to [[crack a window->Crack a Window]]!]
+}
+
+:: research1 {"position":"2800,1200","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+The medical bot sets to work scouring the surfaces of the ship. It swabs every surface it can reach, filters air through microbial sieves, samples every liquid they come across. After a few hours of searching, a green "Orders complete" window pops up on the medic command console. 
+
+When you press the window with your finger, the results of its scans scroll across the screen, highlighting contaminants the bots have not encountered before. After a few minutes of perusing the data, you find what you're looking for. Viral proteins are showing up in every sample related to infected individuals. 
+
+So now you know what you're dealing with. A virus. They were all supposed to have been killed off before you boarded, but something happened. There's something here you aren't seeing.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: research2 {"position":"2800,1300","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You set the med bot to work, scouring the ship for traces of the disease in the air, in water droplets, on surfaces. It knows what it's looking for now: living samples. You need to know in what way the virus is spreading. 
+
+It takes long hours of work, but eventually a pop-up on the med bots' control panel informs you that the bot assigned to research has reached a conclusion: the virus is airborne. No wonder it's spreading so quickly, you think to yourself. You also feel glad that you've already considered masking as a quick and easy way to prevent the spread. 
+
+You'll have to pat yourself on the back for that one, though, because no one else is here.
+
+You inform the doctor of your progress, and she congratulates you while also encouraging you to keep working. There's still lots to be done.
+
+(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]
+
+:: research3 {"position":"2800,1400","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+Having found the method of spread, your next task set to the bots is to research the source of the disease. If every pathogen was destroyed prior to the ship's departure, where the heck did this new virus come from?
+
+The bots spend hours following the track and trace pathways until they find patient zero. They share this information with you along with logs of the patient's last days on the ship before they perished from the disease. You read through work logs and recreation logs.  You don't find anything obvious, but one piece of information tickles the back of your skull, and you tell the bots to search the hydroponics rooms.
+
+After an hour, the bots report back that they've found something: a viral cluster in the misters around where patient zero was assigned to work the day before they got sick. 
+
+Closer inspection shows that the misters contained organic compounds to help the plants thrive. Apparently, the virus had created itself through abiogenesis within the misting system.
+
+"Life finds a way," you mutter to yourself as you type out a report to the doctor on your findings. You also type out a stern letter to the hydroponics labs to sterilize their equipment before they continue work. 
+
+Soon afterwards, you get a reply from the doctor congratulating you on your success while also encouraging you to keep up the good work. A lot remains to be done.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: research4 {"position":"2800,1500","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You order a bot to go collect samples from the few survivors of the disease to try to isolate anything that might have given them an advantage fighting off the virus. 
+
+Some of the survivors are surly and refuse to cooperate, but some are quite willing to help, and you get enough samples sent back to the lab that you can give the multianalyzer a decent chance to find a common thread.
+
+It's many hours later before you hear a musical chime from the multianalyzer notifying you that it's completed its task. 
+
+Checking the results, you think you can identify a weakness in the virus's reproductive capabilities. More importantly, you think that you can exploit the weakness. 
+
+You feel happier than you have since you woke up, and your effervescent joy shows through in your update to the doctor. 
+
+She replies with a video note and says, "Amazing results, but don't rest on your laurels now. We have quite a long road to follow still." 
+
+Her response strikes you as somewhat cold, though realistic. Your work is not done.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]}
+{(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: EnforceMasking {"position":"2400,2000","size":"100,100"}
+{(set: $popKill to it*0.3)
+(set: $morale to it-5)
+(set: $medic to it-1)}
+
+You send one of the bots out into the corridors of the ring to distribute masks to anyone it sees. A number of people seem upset by this little robot asking them to do something so simple, and you can see quite a few people wearing their masks improperly, but you know that every little bit helps. It will save some lives and give you the chance to continue your research. 
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->Command Medic Bots]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]
+
+:: EnforceQuarantine {"position":"2400,2100","size":"100,100"}
+{(set: $popKill to it*0.2)
+(set: $morale to it-10)
+(set: $medic to it-1)}
+As you send out a bot to enforce a quarantine, you know that it will upset some of the denizens of the ring, but it can't be helped. It's for their own good.
+
+As the bots lock door after door, you can hear banging and yelling from behind a number of them. 
+
+Fury follows the bot through the passageways, but you know that safety follows as well. 
+
+You feel glad to be so far removed from those on the ring. Even though you act for their benefit, it's clear that some of them are angry enough that they wish you harm. You wonder if the captain would stop them if they made their way to your part of the ship.
+
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->Command Medic Bots]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]
+
+:: Space some sick people {"position":"900,1900","size":"100,100"}
+You tell the computer to turn up the volume and start listening to the speech as it's happening. The captain's beaming smile belies the darker message behind his words. 
+
+"...you've all been hearing about a little cold that's been going around, and I understand how you feel. But it's nothing to be afraid of, because we are the strongest people to ever walk the ring. We are strong in body and in spirit, and I need you all to stay strong for me. For us. Some sacrifices need to be made so that we can all become stronger than ever before! For the Walkers on the Ring!" he shouts the last words while raising his hands above his head in a way that flexes his tremendous muscles. It's a very practiced and deliberate piece of body language designed to inspire those watching him.
+
+You know that the feed is one way, but the captain pauses in his remarks every so often as if to let the crowd cheer. You expect he has a live feed of the ring where he can hear the reactions of the crowds.
+
+The problem is that this speech is just demogoguery at its worst. He's talking about throwing people out of an airlock. 
+
+You remember the doctor's words about [[stopping his actions->Call the captain1]], but you also remember the captain's warning to [[not get in his way...->let it go]]
+
+
+:: Pizza Party {"position":"900,2000","size":"100,100"}
+You tell the computer to allow audio output from the newsfeed just in time to catch the end of the captain's speech:
+
+"...been a long, tough road for us recently, and I just wanted to give everyone a chance to get together and show some appreciation for each other! We all deserve it."
+
+You sigh at the phrase "get together." You know how bad of an idea this is with a malignant disease on board spreading person to person. Getting a large group of people together in one place is madness. It's just asking to become a super-spreader event, infecting far more people than normal. 
+
+You think about [[calling the captain->Call the captain2]] to talk him out of this madness, but you also know that letting people get together during tough times can help boost morale. Maybe it would be for the best to just [[let it go]].
+
+
+:: Dance Party {"position":"900,2100","size":"100,100"}
+You tell the computer to unmute the captain's speech and tune in to the middle of it:
+
+"...want to get down with your bad selves! So meet up in the grand hall tonight at 8 to show us what you got! Keep those hips loose, y'all! Captain Phstevens OUT!"
+
+The vidfeed cuts back to a smiling broadcaster in a blue jumpsuit and a tie as you tell the computer to mute audio once again.
+
+Memories from your days at school peck at the edges of your conciousness, warning you about allowing a mass gathering of people on the ring while an infectious disease runs rampant and consider [[stopping the dance party->Call the captain3]]. At the same time, you recognize that the captain is trying to raise the ship's morale and consider [[letting it go->let it go]].
+
+
+:: Sports Event {"position":"900,2200","size":"100,100"}
+You set the volume to a comfortable level and listen to the rest of the captain's message:
+
+"...wanna get big like me, you gotta play some sports! Don't be a wuss, come on out to the fields and play some curlyball! I promise not to hit too hard!" 
+
+As he delivers the final line, he winks at the camera, and it's hard to feel like he isn't talking directly to you. You can see how his charisma has gotten him this far. 
+
+You don't know what the sport "curlyball" is, but you begin to worry about this sporting event, especially after the line "hit too hard" passes the captain's lips. There's going to be physical contact, and that could mean more spread of the disease. You think it might be a good time to [[call the captain->Call the captain4]] and try to talk him out of this plan. 
+
+Alternatively, you could just let the captain have his fun and [[let it go]] this time.
+
+
+
+:: beerpong tournament {"position":"900,2300","size":"100,100"}
+Behind the captain, you can see a beer keg floating in the lack of gravity. A couple ping-pong balls bounce around the room as well.
+
+You key the volume up to a respecable level to listen to the remainder of the captain's speech:
+
+"...never been defeated at beerpong, but I'll accept a challenge from the winner of the tournament. That's right! You'll get to share a drink with me, Captain Phstevens! So practice those pong skills, everyone! I'll be waiting for your challenge!" With this last line, he grins even more broadly than usual and winks directly into the camera. It feels lik a remarkably personal message, not a widely distributed piece of propaganda.
+
+Flashes of beerpong from your days at university flicker through your mind. You remember people sharing cups again and again, and the thought of doing so in the middle of an outbreak horrifies you. You know that you should [[stop this->Call the captain5]], but you're also keenly aware of the morale boost such an activity would have, and for a moment, you consider [[letting it happen anyway->let it go]].
+
+
+:: inject people with bleach {"position":"900,2400","size":"100,100"}
+You see the captain is holding up a bottle of disinfectant and pointing at the label where it says, "**Kills 99.9% of germs**." You tell the computer to enable sound and listen to the last lines of his message to the people on the ring:
+
+"...germs are bad. If you have germs in you, that's bad. So let's get rid of the germs so that you can be good! Now we have a solution to this irritating problem, it's a great day to live on the ring!"
+
+With this final line, the vidfeed jumps back to a smiling news anchor who immediately begins extolling the virtues of the captain's newest plan.
+
+You scream at the newsfeed, "**IDIOTS!**"
+
+You wonder just how many people on the ring would believe him if you just [[let it go]], but you don't know how good the education has been these past few decades. If having Captain Phstevens as an elected official is any indication, you feel like you may need to [[talk the captain out of this idea->Call the captain6]].
+
+:: Increase Gravity {"position":"900,2500","size":"100,100"}
+You see the captain and his ever-present grin in the middle of the news feed talking about his newest idea. You flick a switch to unmute the feed and join the broadcast mid-speech:
+
+"...gonna be tough, but I know you walkers are up to the task. We're gonna crush this problem, and then it will be back to normal like nothing ever happened. Keep your chins up, folks, I believe in you!" He grins one last grin at the camera before the feed cuts back to the news anchor who begins to spew forth a monologue about the captain's greatness. You groan and silence the TV once more.
+
+You wonder what madness the captain has that leads him to think that this will do anything at all. Perhaps a [[call with him->Call the captain7]] will cast a light on his thinking. On the other hand, you're pretty sure that there's absolutely no logical explaination for this and you might as well just [[let it go]].
+
+:: karaoke night {"position":"900,2600","size":"100,100"}
+On the vid screen, the captain has activated a number of party lights and is singing gleefully into a microphone. As the song appears to come to an end, you instruct the computer to unmute the feed to hear what the captain has to say:
+
+"I welcome all of you to deck C auditorium where we'll have a karaoke sing-off competition. All are welcome to join, and the winner of tonight's competition will go home with a lovely jar of Jean BoJean's home made moonshine! How's that for incentive! Better get practicing, my lovely walkers, because tonight it will be time to sing your heart out!" With the last line, he holds up a mason jar full of clear liquid, beams his impressive smile, and winks at the camera just as the feed ends.
+
+In his place, a news anchor appears in the middle of the screen and says, "I know what I'm singing tonight, but I'll let that remain a surprise! I'll see you all..." 
+
+You shut off the news feed as you consider whether or not it's worth your time to try to [[talk the captain out of this idea->Call the captain8]] or if you ought to just [[let it go]].
+
+
+:: motivational speech {"position":"900,2700","size":"100,100"}
+You frown at the news feed, certain that there must be something more to this motivational speech the captain is talking about, so you instruct the computer to turn up the volume on the news and try to catch the last part of his announcement:
+
+"...tune in at 8 this evening when I'll be talking directly to you. Yes, you! See you then!"
+
+As he speaks, you can almost feel that he //is// talking to you directly through the feed. His charisma is overwhelming at times, and you can understand why people like him, whatever qualms you may have with him otherwise.
+
+You wonder if he has any other motives and consider [[calling him->Call the captain9]], but you wonder if maybe, just maybe, this is an actual good idea that you should [[allow to happen->let it go]].
+
+
+:: Kids do a play {"position":"900,2800","size":"100,100"}
+A pre-recorded video of kids on a stage plays in the background as the captain's large grin and meaty frame fill most of the foreground. You flick the volume on to hear the end of his announcement:
+
+"...been practicing for months, and they are ready to share with you, my lovely walkers on the ring. So come one, come all, to the auditorium in sector 3 tonight to see this spectacular production. I'm so proud of all of our little ones, and I just know that you will be proud as well." He beams at the camera one last time before the feed switches back to the news anchor.
+
+You mute the feed again as you consider the new information. A gathering of this size is going to increase the spread of the disease. You don't know if the captain knows this, but you consider [[calling him->Call the captain10]] to inform him. You also know that the people will be quite upset if they don't get to see their kids perform, and you consider [[letting the play take place->let it go]].
+
+
+:: Expose some people to the reactor to clean their bodies {"position":"900,2900","size":"100,100"}
+Your jaw hangs open as you read the scroll across the screen. You're certain that this can't be real. You set the feed to audible to try to catch the last of the captain's speech:
+
+"...a risk that we must take. We have a specialist here on the drive module that tells me for certain that radiation kills the little germs that make us sick. An ounce of prevention is worth a ton of cure, as they say. We're going to prevent these little germs from making one more step into our lives. Remember, if you're selected for this duty, a true patriot goes in peace. Even better patriots will already be waiting at the sector 7 reactor for treatment. Together, we will beat this thing!" His smile is still present as always, but it feels so wrong going along with such an awful message.
+
+You reel at the idea that he's implicated you in this decision. 
+You rage. 
+You fume. 
+You scream some obscenities. 
+
+You remember to breathe.
+You calm yourself as your hand hovers over the comms panel. Is it even worth [[discussing this with the captain->Call the captain11]]? You're very certain that you can't just [[let it go]], can you? Is it worth it to have one more bot on your team today?
+
+
+:: Crack a Window {"position":"900,3000","size":"100,100"}
+You float aghast in front of the newsfeed. You can't believe what you're reading. Surely it must be a typo, so you turn up the volume to hear the end of the captain's speech:
+
+"...been reading some history books, and it's clear from the evidence that opening a window is the best way to clear the air. Once all the bad air is out, we can start fresh, and everyone will be happy and healthy again. Take it from me, this //will// save lives."
+
+As he ends his speech, the news flips back to the anchor who dutifully backs up what the captain has planned.
+
+You still can't believe what you're hearing. You can't simply [[let this go->let it go]], can you? You reach out to the comms panel to [[call the captain->Call the captain12]].
+
+
+:: let it go {"position":"1600,2100","size":"100,100"}
+You decide to let the captain do what he wants today. Surely it won't be too harmful...
+{
+<!--Space some folk-->(if: $captainPlan is 1)[(set: $morale to it -30)(set: $population to it-10)(set: $popKill to it*0.5)]
+<!--Pizza Party-->(else-if: $captainPlan is 2)[(set: $morale to it +10)(set: $popKill to it*1.2)]
+<!--Dance Party-->(else-if: $captainPlan is 3)[(set: $morale to it +20)(set: $popKill to it*1.2)]
+<!--Sports Event-->(else-if: $captainPlan is 4)[(set: $morale to it +20)(set: $popKill to it*1.2)]
+<!--beerpong tournament-->(else-if: $captainPlan is 5)[(set: $morale to it +15)(set: $popKill to it*1.2)]
+<!--Inject people with bleach-->(else-if: $captainPlan is 6)[(set: $morale to it -20)(set: $population to it-15)]
+<!--Increase Gravity-->(else-if: $captainPlan is 7)[(set: $morale to it -15)]
+<!--Karaoke night-->(else-if: $captainPlan is 8)[(set: $morale to it +5)(set: $popKill to it*1.3)]
+<!--Motivational Speech-->(else-if: $captainPlan is 9)[(set: $morale to it +10)]
+<!--Kids do a play-->(else-if: $captainPlan is 10)[(set: $morale to it +10)(set: $popKill to it*1.1)]
+<!--Expose some people to the reactor-->(else-if: $captainPlan is 11)[(set: $morale to it -30)(set: $popKill to it*0.8)(set: $population to it - 25)]
+<!--Crack a window-->(else-if: $captainPlan is 12)[(set: $morale to it -40)(set: $popKill to it*0.7)(set: $population to it - 40)]
+}
+You shake your head and turn your attention to the console for the [[medic bots->Command Medic Bots]]. At least you'll be able to make full use of them today.
+
+
+
+:: CancelPlan {"position":"1700,2700","size":"100,100"}
+{
+(set: $medic to it - 1)
+(set: $cancel to true)}
+You go to the bot command panel and construct a set of orders that will interfere with the captain's plans. You'd rather have used these bots to further your own progress, but sometimes prevention is better than cure, so to speak. 
+
+After assigning the first bot to interrupt the captain, you [[turn your attention to the two remaining bots at your disposal.->Command Medic Bots]]
+
+
+(if: $captainPlan is 1)[]
+(else-if: $captainPlan is 2)[]
+(else-if: $captainPlan is 3)[]
+(else-if: $captainPlan is 4)[]
+(else-if: $captainPlan is 5)[]
+(else-if: $captainPlan is 6)[]
+(else-if: $captainPlan is 7)[]
+(else-if: $captainPlan is 8)[]
+(else-if: $captainPlan is 9)[]
+(else-if: $captainPlan is 10)[]
+(else-if: $captainPlan is 11)[]
+(else-if: $captainPlan is 12)[]
+
+
+:: go to bed {"position":"600,1700","size":"100,100"}
+{(set: $population to it-$popKill)}
+
+(if: $population <= 0)[ [[You wake up like normal]], prepare your coffee and choke down your nutrient paste before floating out into the lab to check the daily news, but the feed is dead. ]
+
+{(else-if: $research >= 7 and $morale >10)[You sleep heavily. You've finally started to get used to sleeping in zero G. Moreso, you sleep heavily knowing that your task is complete, your burdeon unbound. The med bots are out on the ring distributing the vaccine to anyone and everyone. Some people may not accept it, but enough will. You're certain that your time here is [[coming to a close.]] Soon, you'll be able to go back into the cryo chamber and sleep for another 23 years or so. And when you wake, it will be to the light of a new star on the surface of a new planet no human has ever touched before. Or perhaps you'll [[stay awake]] for the rest of the trip and get to know these people you've helped save.]}
+(else-if: $morale <= 0)[ [[Something is wrong]] ]
+(else:)[
+You sleep fitfully.
+
+It sucks.
+
+It's hard to sleep in zero G.
+
+You'd toss and turn if you could, but the logistics of sleepin without gravity means that you have to strap yourelf in. As you try to toss, you bounce between the matress and the straps. As you try to turn, you get twisted up in the straps. 
+{<!--Might add in some options here that describe continually getting more used to sleeping in zero G, but that's a polish thing, not a necessary thing-->}
+It feels like you've just closed your eyes when you hear the brazen screech of the alarm from the wall clock alerting you that another solar day has begun. 
+
+You wonder for a moment if there's a snooze button somewhere, but eventually decide that it's just better to get it over with and [[get out of bed->main]].]
+
+<!--Reset medics, orders, and pop reduction-->
+
+(set: $medic to 3)
+(set: $masking to false)
+(set: $quarantine to false)
+(set: $tend to false)
+(set: $researchBool to false)
+(set: $popKill to 25*$round)
+
+
+:: Tend to the dying {"position":"2400,2200","size":"100,100"}
+{(set: $popKill to it-10)
+(set: $morale to it+10)
+(set: $medic to it-1)}
+You know it won't do much to have the bots tend to the dying, but it can't hurt. If nothing else, it will boost the morale of those close to the afflicted. Maybe you'll even save some lives. 
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->Command Medic Bots]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]
+
+:: research5 {"position":"2800,1600","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You hope that the weakness you uncovered earlier will prove to be the virus's achilles heel. As you send the first samples of the vaccine through the system of pneumatic tubes to the med bot, you can't help but feel a mix of overwhelming joy and anxiety about the chance of failure. 
+
+You still haven't recovered all of your memories. While you feel far more capable than you did up on waking from cryo-sleep, you aren't 100% sure that your ability to create vaccines is up to snuff.
+
+You shoot off a video message to the doctor to keep her informed of your progress, but you don't bother to check the response. You know that it will be one of cautious optimism mixed with cold realism. 
+
+You already have enough realism today.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: research6 {"position":"2800,1700","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+There isn't much to do today from an active point of view. This is the worst part of research, you remember. The tests have been conducted, the plates are spinning. All you can do is sit back and wait for an answer. 
+
+The bot assigned to monitor the patients travels quickly from one patient to the next, checking vitals and offering encouraging words. You aren't entirely sure how useful encouraging words are, even coming from a cute little bot like this, but you don't see any options to override the bedside manner, so you simply wait.
+
+A perfunctory email to the doctor is returned almost immediately. You can tell that she's been watching the medical bots from her own office. She's just as nervous as you. 
+
+The question remains: will the vaccine work?
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: research7 {"position":"2800,1800","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You can't recall every being so happy to interact with a bot. You worried that setting the microsynthesizer to produce your trial vaccine in mass quantities might have been a mistake, but you took the risk anyway. Now you had plenty, and better yet, you had proof that it was effective //and// safe.
+
+You gleefully placed the vaccines into the pneumatic system to deliver them to the waiting med bot who would distribute them to every surviving citizen of the ring. 
+
+You never smiled so hard. 
+
+Today is a good day.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->Command Medic Bots]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed]] ]}
+
+:: open comms button. {"position":"200,2600","size":"100,100"}
+"...you... you're awake... good..."
+
+You hear the tortured, rasping breath of someone on the other end of the comms. The voice is weak and halting, but it continues with urgency, "...you're in danger... the captain... he's furious... his plans... save yourself..."
+
+You flick the comms video channel on to see a broken, bleeding mess of a face. The wild hair erupting from the form has been matted with blood, but it is undeniably the doctor's. 
+
+"...he... he's coming for you..." she gasps, "...stop him... save the ship..."
+(live: 4s)[
+*THUD*
+
+Her message delivered, you see her body lose tension. It doesn't collapse in the lack of gravity, but simply floats unguided in front of the video feed.]
+(live: 5s)[
+*THUD*
+
+With growing awareness, you realize [[what that sound is...]] ]
+
+:: what that sound is... {"position":"200,2800","size":"100,100"}
+You peek your head out of the bunk room and look toward the airlock. Through the thick glass, you can see a shining white smile surrounded by mountains of muscle. He's already made it through the first door. You don't have much time before he breaks through the second door.
+
+You look around the room, frantically searching for something that could hold him at bay.
+
+You consider the [[comms panel]]. Perhaps you could talk some sense into him before he breaks through.
+You remember the [[filters]] for the airlock and wonder if there's something you could do with them.
+You look at the [[bot control panel]] and consider how long it might take for a med bot to reach you here from the ring.
+
+:: Do nothing {"position":"2400,2300","size":"100,100"}
+Some bots remain unassigned, but you decide that you've done enough for today and turn the lights off in the lab before making your way to [[bed->go to bed]]. 
+
+As you float toward the bunk, you do feel a slight tingle in the back of your mind that encourages you to [[do a little more today->Command Medic Bots]], but you are so very tired...
+
+:: another door {"position":"100,1500","size":"100,100"}
+The doctor continues, "You'll be able to spend as long as you want in the lab. In that room, you can sleep, shower, and eat. There's a nutrient paste dispensor with about ten years worth of food, and all of the water is recycled in a closed system. With the solitary exception of bio samples, nothing enters or exits this room without going through that airlock." She gestures back at the door through which you just passed. 
+
+"As for bio samples," she says, "medic bots can deliver them upon request through our pneumatic tube system. I know it sounds archaic, but it's the best way we have of delivering things quickly across a ship this large. Anyway, you'll get the samples over there," she says, pointing to a set of tubes with locking cylinders magnetized to the wall beside them.
+
+Near the entry, she opens another cabinet, "When you need to clean up, there's a cabinet here full of cleaning supplies. Bleach, vinegar, ammonia, isopropyl alcohol, you name it. Just try not to mix any of them... or do your reseach before you do." she warns, "There's also replacement sanitizer for the airlock and you insert it here," she says, tapping another cabinet.
+
+"Let's see... [[what else?]]"
+
+
+
+:: what else? {"position":"100,1700","size":"100,100"}
+"Oh, I almost forgot: the medic bots. You'll have complete control over them using this panel over here," she says, gesturing to a touch screen near the airlock. "There are only three of them, so you'll need to use them on what you think is most important at any one time."
+
+She sighs, gazes around the room, looking to see if there's anything she's forgotten, then looks at you.
+
+"I think I know the answer, but I have to ask," she says, peering directly into your eyes, "are you ready to [[get to work]]?"
+
+:: get to work {"position":"100,1900","size":"100,100"}
+You look around, a bit overwhelmed by the amount of information you've received in the past twenty minutes. 
+
+Bits and pieces of half-remembered data swirl through your head. Looking around, you do know that a lot of your work will be done by these machines. Auto-analyzers and microsynthesizers abound in this lab. You're certain you've never seen this amount of top-of-the-line scientific equipment in one place before. It makes you feel more certain of your ability to complete the task ahead of you.
+
+After taking a big breath, you tell the doctor that you are ready to begin.
+
+"Good! Great! Amazing! Thank you so much!" she says, effusively. She's clearly thankful that she has your help. "If you need me, just press the button next to my name on any of the comms screens. The ship will know where to find me and put us in touch. The same goes for the captain if you need to chat with him for any reason."
+
+With that, she [[bids you farewell->main]] and steps back into the airlock, which once again hisses closed behind her. 
+
+:: Call the captain1 {"position":"1100,1900","size":"100,100"}
+You slam your hand onto the comms button that puts you in contact with the captain.
+
+His smiling face appears on the viewscreen.
+
+"Just what the h*** do you think you're doing?" you ask, just a touch louder than you expected.
+
+"I'm spacing the sick people," he replies, coolly. His grin doesn't even fade at the mention of murdering people.
+
+"You're a sick person if you think that's an acceptable response to this," you reply.
+
+"No," he says. While his smile remains implacable, his eyes darken, "I know exactly what I'm doing. I'm saving my ship. If you don't like it, go back to sleep, little one. You aren't welcome here and your ideas are less welcome."
+
+He clicks off the videofeed before you have a chance to respond.
+
+You have a choice now. You know that you could just [[let it go->let it go]] and let those poor people die. It //would// stop those people from spreading the disease, but it would only delay the inevitable. It would also keep the captain happy.
+
+Alternately, you could [[send a medic bot->CancelPlan]] out to run interference and lock the airlocks before the captain's goons could throw the infected in there. It would save their lives, but it would also make the captain angry.
+
+
+
+
+
+:: Call the captain2 {"position":"1100,2000","size":"100,100"}
+You press the captain's button on the comms and wait for his gleaming smile to appear on the vidfeed.
+
+"You rang?" he says in what you assume is his smarmiest voice, "Does the little sleeper want pizza, too? Too bad, it's only for walkers."
+
+You //do// actually want some pizza. The nutrient paste and coffee available here on the drive segment are //not// increasing your morale in the least, but that isn't what you called about.
+
+"Do you know what happens when a bunch of sick people get into a room with a bunch of healthy people?" you ask.
+
+"They all leave happy with bellies full of cheese and bread," he replies, "and they all love me just a little bit more." His smile broadens a bit more than normal at the thought of people heaping praise on him just because he provided a couple cheese pies. 
+
+You roll your eyes and shoot back, "No, everyone leaves sick. You're asking for trouble with this."
+
+"You worry too much, little sleeper," he says in a patronizing tone, "now, little sleeper, I have work to do. You have toys to play with, I'm sure, so go press some buttons now, little sleeper." He flicks the button to end transmission and leaves you in silence, alone in the lab once more.
+
+The idea of pizza is enticing to you. A part of you wishes you could visit the ring and try a slice, and you know that everyone down on the ring would appreciate this gathering. You could just [[let it go]], but you worry about how much the disease will spread. Alternately, you could send out a [[med bot->CancelPlan]] to lock people out of the mess hall for the day and stop the meeting.
+
+:: Call the captain3 {"position":"1100,2100","size":"100,100"}
+You press the comms button to contact the captain. After a few moments, the screen becomes filled with his giant, muscular form and broad, gleaming grin.
+
+"What's the word, turd? You fix my people yet?" He grins at you through the vidfeed.
+
+"Working on it," you say, coolly, "but that isn't why I called. What's this about a dance party on the ring?"
+
+"I know a nerd like you wouldn't understand," he smirks, "but people like parties. So we're having a party."
+
+"And you're going down to the ring to join them?" you ask.
+
+He laughs uproariously, "Heavens no, I don't want to get that sickness that's spreading around!"
+
+"So, you know that this is a bad idea? That people will get sick from this?" you ask, incredulous.
+
+"What people don't know won't hurt them," he scoffs.
+
+"It absolutely //will// hurt them!" you insist, but he's already shut off the comms link.
+
+You could [[send a med bot->CancelPlan]] to lock the gathering space and prevent the party, or you could [[let the captain have his way->let it go]] today, knowing that it will boost morale while also endangering quite a few people.
+
+:: Call the captain4 {"position":"1100,2200","size":"100,100"}
+You sigh heavily as you press the comms button that will connect you with the captain. As the vidfeed opens, you see the captain is busying himself with a workout. He's busily stretching the largest rubber band you've ever seen, and it looks like his shirt may tear a seam at any time. It seems like all this talk of sports has gotten him in the mood for some exercise.
+
+He huffs with exertion as he answers, though the broad smile is still plastered across his wide face, "What's it this time, little one? Want to join us for some curlyball? Oh, wait, you can't, no sleepers allowed. Walkers only. We'll let you watch if you want to," he says in grating condescension. 
+
+"This is a terrible idea," you say, ignoring his insults. "People are going to get sick from this, and you could easily stop it."
+
+He does a few more reps with the band before replying between sets. "I won't stop it. It's a great idea. I know, because it's mine. Being fit equals being healthy," he grins and starts a new set.
+
+"This disease could kill you, too, you know."
+
+"I know," he says, "I won't be there. I'm staying up here with you."
+
+Your jaw drops, amazed that he seems to understand the dire consequences of his actions, yet he's still willing to go through with them. "You're just going to let your people die?" you ask.
+
+"Listen, some of the people may get sick, but everyone will be happier having played some curlyball with their friends. It's a small price to pay for the love of your people," his perpetual grin takes a darker shape as he says this. "Now, leave me alone, little sleeper. Do your little pretend work and play with your little toys in the lab." As he says this, he cuts the vidfeed with a command to the computer, leaving you staring at a black screen. 
+
+You understand the captain's desire to increase morale, and you know that the people could use the boost if you [[let the event take place->let it go]], but you're also worried about how many people might get infected at this event. You consider [[sending out a med bot->CancelPlan]] to shut down the sporting fields for the day to prevent the event from taking place at all.
+
+:: Call the captain5 {"position":"1100,2300","size":"100,100"}
+You sigh heavily as you tell the computer to connect you to the captain via vidfeed. 
+
+After a few seconds, his gleaming smile appears on the screen, and his grating condescension begins like normal, "What does the little sleeper need today? Are you feeling lonely? Or did you just want to see my handsome face?"
+
+"It's about the beerpong tournament you suggested," you reply, ignoring his verbal jabs.
+
+"Great idea, huh? Thought of it myself, you know. Gonna make folks mighty happy. That's what I'm good at. Heck, I'm the best at it!" He grins through the vidfeed, visibly proud of his decision.
+
+"Terrible idea," you respond. "It's just going to spread the disease more quickly."
+
+His smile takes on a malicious edge as he says, "What do you know, little sleeper? You're still groggy. I can see it in your little eyes. Play with your little scopes and toys, but stay out of my way." As he says this last line, he slams the button to close the video link, and the screen goes black.
+
+You weigh the benefits of [[letting people have a night of fun->let it go]] out on the ring versus the benefits of sending out a med bot to [[close the mess halls->CancelPlan]] and prevent further spread of this disease. 
+
+:: Call the captain6 {"position":"1100,2400","size":"100,100"}
+You slam the button to call the captain.
+
+"Great idea, huh?" he asks as soon as his gleaming grin appears on the vidlink. "Thought of if myself. No need to congratulate me. Sometimes my genius knows no bounds."
+
+Through gritted teeth, you manage to maintain a modicum of civility as you say, "This. Can. Not. Happen. This is a **death sentence** for anyone stupid enough to follow through."
+
+At the word 'stupid', his eyes darken and his smile takes on a malevolent air as he shoots back, "You take me for an idiot, don't you? I've seen the cleaner bots use this stuff on every surface of the ship, and nothing bad has ever happened from touching those surfaces. This will be fine. You think you know everything just because someone wrote 'specialist' on your cryopod? Keep playing with your toys in the lab, you dummy. I'm the one in charge. Me. Not you." With that, he closes the vid feed and leaves you in shocked silence.
+
+You know that you could [[send out med bots->CancelPlan]] right now to restrict access to the cleaning supply depots, but you may also need those bots for other missions today. You wonder if you should [[let it go]] this time. Maybe the captain will learn a lesson from this... //maybe//.
+
+:: Call the captain7 {"position":"1100,2500","size":"100,100"}
+You groan in anticipation of this sheer idiocy you're about to endure as you instruct the computer to open a comms channel to the captain.
+
+As the vidfeed opens to the captain's expansive array of pearly white teeth, he immediately begins to congratulate himself for his plan, "It's a magnificent plan, is it not, little sleeper? If the germs can't fly, they can't make anyone sick! I'm stunned by my own genius and I..."
+
+"This is unmitigated nonsense," you interrupt him, which draws his ire.
+
+His smile darkens as he says, "What do you know, little sleeper? Your head still isn't working right. Stay out of my way. These are my people. Mine. Not yours. I'll say it again: stay out of my way, little sleeper, or you'll regret it." With that, he cuts the feed. 
+
+You're left without any real answers, only an unresolved problem. You could [[send out a med bot->CancelPlan]] to override the captain's input to the engines that spin the ring, but you also know that increasing gravity won't really do anything. Well, it will make people's work harder, but you're certain that you could also simply [[let it go]] without too much blowback.
+
+:: Call the captain8 {"position":"1100,2600","size":"100,100"}
+You can't help but wonder what song you would sing if you joined the karaoke night. Though you know that it isn't the best idea, you find yourself humming a few bars of your favorite song from university as you select the captain's name on the comms panel and patch yourself through. 
+
+As he appears on the screen, the party lights are still rolling in the background and a loudspeaker floats through the frame. A microphone is still held tightly in his large, meaty hands. He grins at you and says, "You gotta song picked out? Doesn't matter, you aren't invited. Walkers only. Though I'm sure you're going to tell me why this '//isn't a good idea//,'" he says, mocking you. 
+
+"It isn't a good idea," you repeat back to him. "It's a surefire way to get a lot of people sick, and..."
+
+He interrupts you telling him why not, "Why not? It's fun. People will be happy. Stop worrying so much. Everything will be fine. Besides, I've been practicing, and I want to debut a new song. I'd sing it for you, but you won't appreciate it. Maybe you can watch the vidfeed tonight and remember what it was like to have friends." He guffaws as he closes the comm link, and the screen goes dead.
+
+In stunned silence, you realize that this is merely an opportunity for him to get attention from the public. He just wants to be loved, and he doesn't care what cost other people are going to pay for his ego. He won't even be down on the ring, you realize, and the realization enrages you. You consider [[sending a med bot->CancelPlan]] to sabotage the sound equipment on the ring, but you know that if you [[let it go]] you'll have one more bot available to use for other matters.
+
+:: Call the captain9 {"position":"1100,2700","size":"100,100"}
+You press the button to call the captain and hold your breath as you await his answer. It isn't long before his gleaming teeth appear from the other end of the call.
+
+"What can I do you for?" he asks.
+
+"Just a speech? On the vid feeds? That's your idea?" you ask. The doubt in your voice drips like molasses from your words.
+
+"Yes," he replies, uncharacteristically somber, "I'll give a speech at 8 to invigorate my people. They love me, you know. Most people do. Only really nasty people don't love me." His eyes darken for a moment as he says the word 'nasty.' 
+
+"I think it's a good idea," you say, genuinely.
+
+"I don't need your approval, little sleeper. I know it's a good idea because it's mine. Do you feel the need to give your input on every little thing I do? I don't need it. Never needed it. Won't ever need it. Keep playing with your toys, little sleeper. We've been fine for years without you, and we'll continue to be fine if you go away. So go." He reaches forward to close the comm link with one meaty finger leaving you alone again.
+
+Despite the unending smile, you could feel the antagonism in his voice as he spoke to you. That charisma, seeping through the screen, works both ways, and you feel dejected having been so thoroughly dismissed by him. You consider [[sabotaging the speech->CancelPlan]] with a med bot somehow, but you know can feel how much the captain might raise morale shipwide if you just [[let him speak->let it go]].
+
+:: Call the captain10 {"position":"1100,2800","size":"100,100"}
+You wearily instruct the computer to contact the captain, and his face almost immediately appears on the vid feed.
+
+"I thought you might be calling," he says with a grin. "No worries, though, no worries. Everything is under control. Everyone will be ten times happier after tonight's grand performance. I can't wait to see it myself."
+
+"Call it off," you say, flatly. "It's a bad idea that will spread the disease."
+
+"Diseases don't spread in the light of joy!" he insists, winking at you. "Besides, you don't want to make the kids sad, do you?"
+
+"I don't want the kids to die," you respond, getting angry.
+
+"Then do your job. Isn't that why you're here? To //save// people?" he's still smiling, but accompanied by a jeer, the smile takes on a darker meaning.
+
+"That's what I'm trying to do. You need to stop this now," you insist.
+
+"Try harder," he says, cutting the comm link before you have a chance to respond.
+
+You swear under your breath. You could use a med bot to [[restrict access to the auditorium->CancelPlan]] which would save lives, but you know some people out on the ring would be devastated. Especially those with young children. You wonder if the morale boost would be worth [[letting the play go forward->let it go]].
+
+:: Call the captain11 {"position":"1100,2900","size":"100,100"}
+With one last deep breath, you press the comms button to open a channel to the captain.
+
+As his square jaw and gleaming teeth appear on the vid screen, the calm you worked for immediately leaves your body, and every muscle in your body tenses like a deer in the headlights.
+
+"Brilliant, eh?" His tone is so prideful you want to smash the comm panel. "I solved the issue. You can go back to sleep, little one. Captain Phstevens is here to save the day."
+
+"Idiocy. Pure idiocy. You want to kill people for fun?" you respond through clenched teeth.
+
+His demeanor shifts and he leans in close to the camera so that his face fills the vid feed. "But it was //your// idea, little one. If anything bad happens, they'll all call for your head, not mine. It //is// a brilliant plan, you see. It's foolproof. Better that you go back to sleep, little one, before the crowd pulls out their pitchforks."
+
+Before you can respond, he cuts the link and sets his side to "busy" so you can't call back no matter how many times you press the call button.
+
+You look at the med bot panel and consider sending one out to [[quaratine sector 7->CancelPlan]] and prevent anyone from reaching the reactor. You wonder if the captain would just select another location, though, and if it's even worth it. Maybe you should just [[let it go]] this time.
+
+:: Call the captain12 {"position":"1100,3000","size":"100,100"}
+You slam your palm down onto the touch screen and open a direct link to the captain.
+
+As his smile appears on the other end of the feed, you don't offer him a chance to speak before you open with, "Murder. This is murder. For no reason. You're just killing people. History books? What madness have you been reading? In those books, there was more air outside the window. Here, there's nothing."
+
+He smile persists, unabated. "I know," he says calmly. "Perhaps you missed the part when I said this was your idea. Well... it's your word against mine. And who do you think they trust more? Some sleepy sleeper? Or me? Their //captain.//"
+
+Horror creeps in as you realize that he's right. The people on the ring don't have any information beyond what the news desks share, and they don't have any information that doesn't come directly from the captain. There's no reason for anyone on the ring to doubt the captain's story. He can do anything, and for every misstep, he has you as a scapegoat.
+
+"You... really don't care about these people, do you?" you ask, your voice shaking with impotent rage.
+
+"I care that they like me more than you. That's what I care about. And right now, they're starting to get a //little bit// angry with this sleeper and all their new ideas and rules. It won't be long until they don't trust you and the doc at all. And then... then the ship will be all mine again." His ever-present grin darkens into a leer and he continues, "Remember: don't get in my way, little sleeper."
+
+With that, he cuts communications and restricts incoming messages so you can't call back. 
+
+You hesitate for a moment as you weigh your options. You //could// [[let him get away with->let it go]] this and try to pin the fault on him later, but that seems like a tough hill to climb. You know it would be better to assign some medical bots to [[run interference->CancelPlan]] and try to keep his goons from opening any windows.
+
+:: coming to a close. {"position":"950,1200","size":"100,100"}
+You wake fully rested for once. The irony that you do so only to enter another long sleep does not escape you, but you feel good having rested well for once. 
+
+You record a farewell message to the denizens of the ring. You know that a few of them will ever meet you in the future when you wake again, and you'd like them to remember you fondly.
+
+A trip to the doctor's office shows you in good health, ready for another couple of decades in deep freeze. 
+
+As you float with her toward the cryo-pods, you chat quietly about the trials you've experienced together over the past days. You both agree that you're happy to have such a great coworker and partner, and you agree to become neighbors come planetfall. 
+
+It is with such sweet thoughts that you enter the pod once more. As the curved class draws closed, you can see the doctor's shadowy form looking down on you again. Her smile is serene and caring like a mother looking down on her newborn child. 
+
+The chamber pressurizes with a soft hum, and you close your eyes. You fall asleep to the gentle thrum of the ship's engines, welcoming the long dark.
+
+[[The End]]
+
+
+:: stay awake {"position":"1050,1200","size":"100,100"}
+You wake fully rested to the gentle thrum of the ship's engines, a sound you've become so accostomed to it feels like it permeates your very soul. You feel a connection to this ship now. Your memories of the time before you boarded, before you went to sleep all those years ago, are beginning to return to their crystalline state you expect memories to exist in. You remember wanting to help people form a life on a new planet, but you never before considered the lives people would live on the way //to that planet//. 
+
+You release yourself from the straps of the bunk and call the doctor.
+
+"I want to stay awake," you say.
+
+"That's your decision to make," she says, "but may I ask why?"
+
+"I feel so disconnected from these people we helped to save. I'd... I'd like to get to know them, if I can," you say.
+
+"I expect no less," she says, smiling warmly. "I'll make an announcement to the walkers and arrange an audience."
+
+"Maybe no large groups..." you respond, "Not yet, anyway."
+
+She laughs at this, but nods with understanding. "Got it, no fanfare, no parades. Just you and the people, one-on-one."
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+You feel a bit ill at ease as the elevator takes you outward to the ring. As it moves, you can feel the centripetal force begin to act like gravity, pushing your boots into the hard metal floor. After so many weeks floating, it's an odd sensation. You feel nervous, jittery. You fill your lungs and hold your breath, counting to ten.
+
+Beside you, the doctor reaches over and squeezes your hand reassuringly. "Nothing to worry about. Nothing at all," she says, smiling at you.
+
+As the elevator comes to a rest, the doors glide open revealing a hall filled with people.
+
+"I thought you said no crowds," you whisper to the doctor.
+
+"Too bad," she laughs, "you're a hero."
+
+With that, the crowd bursts into cheers and you step forth into your new life.
+
+[[The End]]
+
+:: Something is wrong {"position":"400,1925","size":"100,100"}
+You awake to silence. 
+(live: 1.5s)
+[Utter silence.]
+(live: 3s)
+[Something is missing. ]
+(live: 5s)
+[Suddenly, you understand: the engines have stopped. Their ever-present vibrations have halted. ]
+(live: 8s)[
+You thumb the comms open to the captain, but he doesn't answer.
+You try again with the doctor to the same result. ]
+(live: 11s)[
+You glance over to the security cameras. You've never felt the need to look at them, but when you do, you see a writhing mass of humans floating through the hallways of the drive module. The walkers have made it here somehow. The cameras outside the doctor's office and the captain's quarters show their doors ripped from the hinges. The mob has awoken. 
+
+You flip the security camera over to the hallway where your lab is. At the end, you can see the mob writhing and twisting toward you. You can hear the faint rending of metal as they tear door after door from the walls, searching, searching. 
+
+For you.
+
+It isn't long before they find you. 
+
+It isn't a pretty death.
+
+[[The End]] ]
+
+:: comms panel {"position":"200,2925","size":"100,100"}
+You rush to the comms panel and open a channel into the airlock so the captain can hear you clearly.
+
+"Captain! What are you doing?" you ask frantically.
+
+"You. In. My. WAY!" He hollers. He's so loud that you hear him through the thick airlock door. 
+
+"You need to stop!" you insist.
+
+"STOP. YOU!" he growls.
+
+It's horrifying to see such rage pour forth through that permanent smile.
+
+"Listen to me!" you scream, but to no avail.
+
+The thick glass shatters under the heavy blows from the captain's muscular frame. You have no time to react as he reaches through the broken door and grabs you by the neck.
+
+The light fades from the edges of your vision first, slowly clouding out everything in the room until you're left with only a pinprick of vision. In the center of that pinprick, you see a set of gleaming white teeth framed by a vicious smile.
+
+[[The End]]
+
+:: filters {"position":"325,2925","size":"100,100"}
+You rush over to the air filters. Of course, you could put something in their place and activate the laminar air to cover the captain in... something. But what?
+
+You look around frantically once more. 
+
+On the far side of the room, you see the samples case with [[live virus]]. The captain hasn't been exposed, you know. Maybe this would help?
+
+On the other side of the room, you see the cabinet filled with [[cleaning supplies.]] The doctor warned you about mixing chemicals, but how much chemistry do you remember from school now?
+
+:: bot control panel {"position":"75,2925","size":"100,100"}
+You rush over to the bot control panel and order all three bots to come to your aid. They all oblige and begin the long trek to the center of the ship. You can see their markers on the map growing closer, making their way from the ring up the spokes when you hear the shattering of glass behind you. You turn around just in time to see the captain's hulking frame hurtling toward you in the zero G environment. You can clearly see blood on his fists as they hurtle toward you.
+
+Mercifully, you black out after only a couple of blows.
+
+[[The End]]
+
+:: live virus {"position":"100,3100","size":"100,100"}
+You rush over to the sample case, grab every sample you can, and hurriedly thrust the contents into the filter box. You hear the laminar air rush through the system and see it ruffle the captain's hair, but it doesn't slow him down.
+
+A few more blows, and he breaks down the second airlock door and hurls himself at you. 
+
+"Can't stop me now!" he growls as he speeds toward you. His ever-present smile stretches across his face while bloodlust burns in his eyes.
+
+You try to dodge the attack, but a glancing blow from his enormous fist sends you reeling across the room in a disorientating spin. You try to get your bearings, but you aren't used to zero G like the captain is. He flies at you once more with his fists forward, and before you can react, he has you in his grip. He pulls his arm back and as he slams you bodily against the wall, your world goes instantly black.
+
+[[The End]]
+
+:: cleaning supplies. {"position":"300,3100","size":"100,100"}
+You rush over to the cleaning supplies cabinet to see a number of bottles. You can't remember a thing from chemistry class in the heat of the moment, but you grab the first two that are closest to the door and rush back to the filter cabinet. You pop the tops of the two bottles and frantically spray them onto the air filters and slam the cabinet shut. As you hear the laminar jets whirr to life, you can see a gas pour out of the vents and the captain begins to cough. In his rage, he breathes deeply and moves forward to swing again, but his blows become weaker and weaker. 
+
+After a few moments, he stops moving at all.
+
+Suddenly, a memory comes back, not from chemistry class, but from a video you watched years ago about household safety. You look at the bottles in your hands. Vinegar and bleach. 
+
+You made chlorine gas. 
+
+As the adreneline begins to fade, you start shaking and crying, and then suddenly [[remember the doctor.]]
+
+(set: $captainDead to true)
+
+:: remember the doctor. {"position":"300,3300","size":"100,100"}
+You rush back to the comms console and press the button to connect you to the doctor. 
+
+The line stays silent no matter how many times you hear it ring. Tears well up in your eyes, but they never fall. Without gravity, they stay there and cloud your vision until you wipe them away. 
+
+You then remember the med bots and rush over to their control console. You order one to go to her office immediately. On the map, the robot's movement seems impossibly slow as it makes its way from the ring, up a spoke, to the drive module. Eventually, it reaches the doctor's office and you can see through the bot's video feed the doctor's body floating near the comms console. 
+
+She looks dead, but the bot signals an alarm that it senses a pulse. 
+
+The bot completes a full scan and reports back: internal bleeding, multiple fractures, multiple abrasions and lacerations. Request permission to move patient to gravitational facility.
+
+Humans don't heal well in zero G.
+
+You give the go-ahead, and the med bot takes the doctor's body gently onto a gurney that extends from the bot's abdomen and takes her out to the ring.
+
+The adreneline has worn off by now, and you [[faint for an unknown amount of time.]]
+
+
+
+:: faint for an unknown amount of time. {"position":"300,3500","size":"100,100"}
+You wake up to a beeping signal from the med bot console. A blinking message on the console indicates that its job is done, the doctor has been treated and is in stable condition. 
+
+You sigh, relieved, thanking whatever powers you believe in for small miracles.
+
+You also realize that the situation on the ring is not finished. The doctor is now in danger of getting infected now that she's out there. 
+
+On the video news feed, you can see a number of walkers on the ring are becoming agitated at their lack of leadership. He may not have been a great leader, but he was //their// leader, and that's something you'll have to deal with in time. For now, you simply have to assume that they will be getting angrier and angrier with every passing day. 
+
+You need to work quickly now, but at least you won't have to deal with the captain's madness anymore...
+
+
+You steel yourself, take a deep breath, and [[get back to work.]]
+
+:: get back to work. {"position":"800,3600","size":"100,100"}
+(if: $medic > 0)[
+You look at the screen on the bot control panel and see a number of commands available to you:
+
+(if: $researchBool is false)[ [[Research->ResearchCopy]]](else:)[]
+(if: $masking is false)[ [[EnforceMasking->EM]]](else:)[]
+(if: $quarantine is false)[ [[EnforceQuarantine->EQ]]](else:)[]
+(if: $tend is false)[ [[Tend to the dying->Tend]]](else:)[]
+[[Do nothing->DN]]
+]
+
+(else:)
+[
+The display remains blank. It appears that there are no available medical robots left to command today.
+
+You float yourself over to the microanalyzers and busy yourself with diagnosis and treatment options. It's not just the bots who are needed.
+
+Luckily, with every day that passes, you remember a little bit more about how to use these machines, what their quirks and intricacies are. You work until you're exhausted. If there were gravity, you would collapse. 
+
+You know there is more work to be done, but you won't get any more completed today, so you head out of the lab and [[go to bed]].
+]
+
+:: ResearchCopy {"position":"2000,3400","size":"100,100"}
+{(if: $research is 0)[You open the research tab to select a direct order. You know that the first order of operations is to [[find out what kind of disease we're working with->research1copy]]. To do so, you will send out a med bot to collect samples to study. Once you have those, you'll be able to run diagnostic tests on the samples here in the lab.]
+(else-if: $research is 1)[Having run diagnostic tests the previous day, you have some answers, but questions remain. You need to [[find how the disease spreads->research2copy]]. Once you know that, you'll be able to better employ specific prevention methods.]
+(else-if: $research is 2)[ You've discovered the way the disease spreads and run its DNA through the auto-analyzer, but you still need to[[find the origins of the disease.->research3copy]]. Knowing this will help you prevent the disease from arising again if the source is still present in the ship.]
+(else-if: $research is 3)[ You've located the origins of the disease and even managed to trace back the spread to find some of the original survivors. You need to know what kept them alive, so you send a med bot out to [[take samples from sick patients who lived.->research4copy]] Knowing this will help you develop a vaccine.]
+(else-if: $research is 4)[The microsynthesizers have been working overnight to produce your first vaccine sample. You still need to [[test the vaccine.->research5copy]] To do this, you insert the vaccine into the pneumatic tube and deliver it to the waiting med bot on the ring.]
+(else-if: $research is 5)[You're hoping beyond hope that this new vaccine will be safe and effective. It's a question you have to answer before you can distribute it to everone on eht ring. For now, you need to [[monitor the test subjects.->research6copy]] If they have any ill effects, you'll need to start again. You cross your fingers that they'll fare well.]
+(else-if: $research is 6)[The test subjects are healthy and hale! The vaccine is a success, but it won't do anything if you don't [[distribute it. ->research7copy]] It's time, you think, to end this. It's time to save the ship.]}
+
+:: research1copy {"position":"2500,3000","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+The medical bot sets to work scouring the surfaces of the ship. It swabs every surface it can reach, filters air through microbial sieves, samples every liquid they come across. After a few hours of searching, a green "Orders complete" window pops up on the medic command console. 
+
+When you press the window with your finger, the results of its scans scroll across the screen, highlighting contaminants the bots have not encountered before. After a few minutes of perusing the data, you find what you're looking for. Viral proteins are showing up in every sample related to infected individuals. 
+
+So now you know what you're dealing with. A virus. They were all supposed to have been killed off before you boarded, but something happened. There's something here you aren't seeing.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: research2copy {"position":"2500,3100","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You set the med bot to work, scouring the ship for traces of the disease in the air, in water droplets, on surfaces. It knows what it's looking for now: living samples. You need to know in what way the virus is spreading. 
+
+It takes long hours of work, but eventually a pop-up on the med bots' control panel informs you that the bot assigned to research has reached a conclusion: the virus is airborne. No wonder it's spreading so quickly, you think to yourself. You also feel glad that you've already considered masking as a quick and easy way to prevent the spread. 
+
+You'll have to pat yourself on the back for that one, though, because no one else is here.
+
+You inform the doctor of your progress, and she congratulates you while also encouraging you to keep working. There's still lots to be done.
+
+(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+{(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]
+
+:: research3copy {"position":"2500,3200","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+Having found the method of spread, your next task set to the bots is to research the source of the disease. If every pathogen was destroyed prior to the ship's departure, where the heck did this new virus come from?
+
+The bots spend hours following the track and trace pathways until they find patient zero. They share this information with you along with logs of the patient's last days on the ship before they perished from the disease. You read through work logs and recreation logs.  You don't find anything obvious, but one piece of information tickles the back of your skull, and you tell the bots to search the hydroponics rooms.
+
+After an hour, the bots report back that they've found something: a viral cluster in the misters around where patient zero was assigned to work the day before they got sick. 
+
+Closer inspection shows that the misters contained organic compounds to help the plants thrive. Apparently, the virus had created itself through abiogenesis within the misting system.
+
+"Life finds a way," you mutter to yourself as you type out a report to the doctor on your findings. You also type out a stern letter to the hydroponics labs to sterilize their equipment before they continue work. 
+
+Soon afterwards, you get a reply from the doctor congratulating you on your success while also encouraging you to keep up the good work. A lot remains to be done.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: research4copy {"position":"2500,3300","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You order a bot to go collect samples from the few survivors of the disease to try to isolate anything that might have given them an advantage fighting off the virus. 
+
+Some of the survivors are surly and refuse to cooperate, but some are quite willing to help, and you get enough samples sent back to the lab that you can give the multianalyzer a decent chance to find a common thread.
+
+It's many hours later before you hear a musical chime from the multianalyzer notifying you that it's completed its task. 
+
+Checking the results, you think you can identify a weakness in the virus's reproductive capabilities. More importantly, you think that you can exploit the weakness. 
+
+You feel happier than you have since you woke up, and your effervescent joy shows through in your update to the doctor. 
+
+She replies with a video note and says, "Amazing results, but don't rest on your laurels now. We have quite a long road to follow still." 
+
+Her response strikes you as somewhat cold, though realistic. Your work is not done.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]}
+{(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: research5copy {"position":"2500,3400","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You hope that the weakness you uncovered earlier will prove to be the virus's achilles heel. As you send the first samples of the vaccine through the system of pneumatic tubes to the med bot, you can't help but feel a mix of overwhelming joy and anxiety about the chance of failure. 
+
+You still haven't recovered all of your memories. While you feel far more capable than you did up on waking from cryo-sleep, you aren't 100% sure that your ability to create vaccines is up to snuff.
+
+You shoot off a video message to the doctor to keep her informed of your progress, but you don't bother to check the response. You know that it will be one of cautious optimism mixed with cold realism. 
+
+You already have enough realism today.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: research6copy {"position":"2500,3500","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+There isn't much to do today from an active point of view. This is the worst part of research, you remember. The tests have been conducted, the plates are spinning. All you can do is sit back and wait for an answer. 
+
+The bot assigned to monitor the patients travels quickly from one patient to the next, checking vitals and offering encouraging words. You aren't entirely sure how useful encouraging words are, even coming from a cute little bot like this, but you don't see any options to override the bedside manner, so you simply wait.
+
+A perfunctory email to the doctor is returned almost immediately. You can tell that she's been watching the medical bots from her own office. She's just as nervous as you. 
+
+The question remains: will the vaccine work?
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: research7copy {"position":"2500,3600","size":"100,100"}
+{(set: $research to it+1)
+(set: $medic to it-1)
+(set: $researchBool to true)}
+You can't recall every being so happy to interact with a bot. You worried that setting the microsynthesizer to produce your trial vaccine in mass quantities might have been a mistake, but you took the risk anyway. Now you had plenty, and better yet, you had proof that it was effective //and// safe.
+
+You gleefully placed the vaccines into the pneumatic system to deliver them to the waiting med bot who would distribute them to every surviving citizen of the ring. 
+
+You never smiled so hard. 
+
+Today is a good day.
+
+{(if: $medic > 0)[You want the bots to continue their research, but they override your command and send themselves to their recharging docks for the night. You still have the opportunity to [[command other medic bots->get back to work.]], but due to a programming failsafe, it appears that you cannot have the other bots repeat the "research" command. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]}
+
+:: EM {"position":"2000,3500","size":"100,100"}
+{(set: $popKill to it*0.3)
+(set: $morale to it-5)
+(set: $medic to it-1)}
+
+You send one of the bots out into the corridors of the ring to distribute masks to anyone it sees. A number of people seem upset by this little robot asking them to do something so simple, and you can see quite a few people wearing their masks improperly, but you know that every little bit helps. It will save some lives and give you the chance to continue your research. 
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->get back to work.]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]
+
+:: EQ {"position":"2000,3600","size":"100,100"}
+{(set: $popKill to it*0.2)
+(set: $morale to it-10)
+(set: $medic to it-1)}
+As you send out a bot to enforce a quarantine, you know that it will upset some of the denizens of the ring, but it can't be helped. It's for their own good.
+
+As the bots lock door after door, you can hear banging and yelling from behind a number of them. 
+
+Fury follows the bot through the passageways, but you know that safety follows as well. 
+
+You feel glad to be so far removed from those on the ring. Even though you act for their benefit, it's clear that some of them are angry enough that they wish you harm. You wonder if the captain would stop them if they made their way to your part of the ship.
+
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->get back to work.]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]
+
+:: Tend {"position":"2000,3700","size":"100,100"}
+{(set: $popKill to it-10)
+(set: $morale to it+10)
+(set: $medic to it-1)}
+You know it won't do much to have the bots tend to the dying, but it can't hurt. If nothing else, it will boost the morale of those close to the afflicted. Maybe you'll even save some lives. 
+
+(if: $medic > 0)[You have the opportunity to deploy more medical bots, so you navigate back to the [[main screen->get back to work.]] on the bot console. ]
+(else:)[ Above the main command screen on the medic bot control panel, a pop up informs you that all medical bots are now either in use or charging for the night. It appears that you won't be able to make much more progress tonight. You feel like you need a recharge yourself and make your way to the [[bunk room for the night.->go to bed copy]] ]
+
+:: DN {"position":"2000,3800","size":"100,100"}
+Some bots remain unassigned, but you decide that you've done enough for today and turn the lights off in the lab before making your way to [[bed->go to bed copy]]. 
+
+As you float toward the bunk, you do feel a slight tingle in the back of your mind that encourages you to [[do a little more today->get back to work.]], but you are so very tired...
+
+:: go to bed copy {"position":"1500,3100","size":"100,100"}
+{(set: $population to it-$popKill)}
+
+(if: $population <= 0)[ [[You wake up like normal->You wake up 2]], prepare your coffee and choke down your nutrient paste before floating out into the lab to check the daily news, but the feed is dead. ]
+
+{(else-if: $research >= 7 and $morale >10)[You sleep heavily. You've finally started to get used to sleeping in zero G. Moreso, you sleep heavily knowing that your task is complete, your burdeon unbound. The med bots are out on the ring distributing the vaccine to anyone and everyone. Some people may not accept it, but enough will. You're certain that your time here is [[coming to a close.]] Soon, you'll be able to go back into the cryo chamber and sleep for another 23 years or so. And when you wake, it will be to the light of a new star on the surface of a new planet no human has ever touched before. Or perhaps you'll [[stay awake]] for the rest of the trip and get to know these people you've helped save.]}
+(else-if: $morale <= 0)[ [[Something is wrong]] ]
+(else:)[
+You sleep fitfully
+
+It sucks
+
+It's hard to sleep in zero G
+{
+
+<!--Might add in some options here that describe continually getting more used to sleeping in zero G, but that's a polish thing, not a necessary thing-->
+}
+It feels like you've just closed your eyes when you hear the brazen screech of the alarm from the wall clock alerting you that another solar day has begun. 
+
+You wonder for a moment if there's a snooze button somewhere, but eventually decide that it's just better to get it over with and [[get out of bed->main2]].]
+
+<!--Reset medics, orders, and pop reduction-->
+
+(set: $medic to 3)
+(set: $masking to false)
+(set: $quarantine to false)
+(set: $tend to false)
+(set: $researchBool to false)
+(set: $popKill to 25*$round)
+
+
+:: main2 {"position":"1100,3200","size":"100,100"}
+{<!--Check Morale-->
+(if: $morale is >= 70)[(set: $moraleText to "happy")]
+(else-if: $morale is >= 50)[(set: $moraleText to "feeling okay")]
+(else-if: $morale is >= 30)[(set: $moraleText to "unhappy")]
+(else-if: $morale is >= 10)[(set: $moraleText to "terrified")]
+(else-if: $morale is < 10)[(set: $moraleText to "outraged")]
+
+<!--Check population-->
+(if: $population is >= 900)[(set: $popText to "10%")]
+(else-if: $population is >= 800)[(set: $popText to "20%")]
+(else-if: $population is >= 700)[(set: $popText to "30%")]
+(else-if: $population is >= 600)[(set: $popText to "40%")]
+(else-if: $population is >= 500)[(set: $popText to "50%")]
+(else-if: $population is >= 400)[(set: $popText to "60%")]
+(else-if: $population is >= 300)[(set: $popText to "70%")]
+(else-if: $population is >= 200)[(set: $popText to "80%")]
+(else-if: $population is >= 100)[(set: $popText to "90%")]
+(else-if: $population is < 100)[(set: $popText to "nearly 100%")]}
+
+
+
+{
+<!--Return trip-->
+[
+(set: $round to it+1)
+You unstrap yourself from the bunk and gently push yourself to float over to the coffee and nutrient paste machine to start your day. The nutrient paste is just barely palateable, but the coffee helps you choke it down.
+
+The constant dull rumbling thrum of the ship's engines continues to permeate your being.
+
+As you float into the lab, the view screen lights up to show you the day's news. You[[ look over to it->Read news feed2]] to see what if there's anything you need to know.
+]
+}
+
+
+
+:: Read news feed2 {"position":"950,3350","size":"100,100"}
+
+In the top right corner of the screen, you see a section labeled "Today's poll." It shows an emoji indicating that most people polled that day are $moraleText. 
+
+In the top left corner, another infographic shows the progress of the disease. It appears that around $popText of the population has perished from the illness. 
+
+The captain is noticeably absent from this newscast. The anchor looks sad and disheveled. You can tell that his loss is affecting everyone on the ring. You think back at how he attacked you and feel somewhat horrified that anyone could mourn his loss. But mourn him they do. That's all the news can cover right now: the loss of their leader.
+
+You grit your teeth, wondering why they won't tell the truth about him. Why they won't tell the truth about your work. Maybe one day they will, you think, but today is not that day.
+
+You steel yourself, remember that these are people you're trying to help, and look to the lab to [[continue your work->get back to work.]]
+
+:: You wake up like normal {"position":"600,1400","size":"100,100"}
+You thumb the comms over to the doctor's channel to ask her if there's been a technical issue, but her line only responds with her out-of-office message. She must have gone out to the ring to treat someone, you think.
+
+You try calling the captain as well, but you get no answer. 
+
+You make your way through the airlock to try to find answers, and on the way past the doctor's office, you pass a monitor with a constant display of the health of every occupant on the ring. Except there's no one there. The ring is deserted. Everyone has died.
+
+Tears well up in your eyes as you process the monumental weight of this news. 
+
+From behind you, you hear a feral growl like that of some massive beast. You wipe the tears from your eyes just in time to see the captain, still smiling below rage-filled eyes. 
+
+"You did this," he growls. "This is all //your// fault."
+
+You'd like to respond, but his hands are around your throat. You'd like to tell him, logically, that the decisions he made as leader led to this end. But your certain he wouldn't listen.
+
+As the light fades from the world you wonder, for the first time, if any other ships will be passing this way. If anyone will ever find this tomb floating through space. 
+
+You certainly won't know.
+
+[[The End]]
+
+:: Untitled Passage {"position":"500,1500","size":"100,100"}
+(set: $population to 100)
+(set: $popKill to 132)
+(set: $morale to 50)
+[[go to bed]]
+
+
+:: You wake up 2 {"position":"1900,2800","size":"100,100"}
+You thumb the comms over to the doctor's channel to ask her if there's been a technical issue, but her line only responds with her out-of-office message. She must have gone out to the ring to treat someone, you think.
+
+You open the remaining door on the wrecked airlock and into the hallways beyond. You don't know any of this ship, but your sure that you could find your way around. 
+
+Soon enough, you find a map posted on the wall. Pressing a button with the doctor's name lights up a path through the hallways leading you to her current location. You follow the lights to an elevator that takes you down to the ring. 
+
+As you approach the outer limits of the ring, you begin to feel the push of centripetal force creating an ersatz gravity. It feels odd after having drited weightless for so long. 
+
+As the doors open, you fit a mask around your face and brace yourself for what might lay beyond.
+
+You aren't prepared.
+
+Bodies lay strewn through the hallways. Mothers clutching babies in their last moments. You find entire families lying in piles together in their bedrooms, holding each other in a final embrace. A stink permeates the air, and you feel suffocated by the noxious fumes. 
+
+You continue following the lights and eventually find the doctor's body. It appears she collapsed while walking to a patient. 
+
+As you choke on the thought that these were the people you were meant to save. Perhaps you could have done something differently. Perhaps, but life is no game. 
+
+You know the ship will keep moving now. Past its intended home. All the people sleeping on the drive module are as good as dead as well. There's no more crew who know how to operate the ship itself. Everyone up there is a specialist in something that doesn't help the ship move. 
+
+Maybe the failure was etched into their fates. Maybe it wasn't your fault. You find some comfort in that thought as you walk into the airlock and look out the window into the void. 
+
+As the outer door slides open, the dull rumble of the ship's engines fades into utter silence. The void embraces you.
+
+[[The End]]
+
+:: Credits {"position":"300,200","size":"100,100"}
+Written by George A. Boyle
+
+
+Many, many thanks to John and Liz for helping to proofread and test.
+
+:: Title {"position":"200,400","size":"100,100"}
+(align:"=><=")+(box:"=XXX=")[=
+Interstellar Quarantine
+A choose-your-own adventure game
+by
+George A. Boyle
+
+
+
+
+
+Click links to [[continue->Set up]]

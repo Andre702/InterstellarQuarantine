@@ -1,0 +1,27 @@
+:: UserStylesheet [stylesheet]
+
+:: Captain {"position":"550,600","size":"100,100"}
+As you enter the bridge room, you find yourself face to face with probably the least competent person on this ship...
+He seems busy fixing and adjusting his ridiculous outfit. When you clear your throat meaningfully, he finally notices you.
+
+"Oh, you finally showed up. We need to get rid of the problem of this disease. You probably came for my great advice. I have been planning for such occasions for a long time and I am sure that the ship needs to be aired to get rid of these pesky viruses. We'll open a few hatches to make a draft, and if that doesn't help, we'll try to immunize the crew by giving them some bleach. After all, what doesn't kill you makes you stronger, right?"
+
+...
+
+Captain seems mad. You should probably [[keep him out]] of this as long as you can.
+
+"With limited medic crews we should either enforce strict rules on wearing [[masks]] at all times to prevent the spread of the virus, or we impose strict [[hygiene]] measures on crew members in a chosen sector. There is also an option to order a full [[quarantine]]. We need to act fast and decisively to contain the situation and protect the crew."
+
+:: masks {"position":"550,600","size":"100,100"}
+You have chosen to distribute masks among the crew. Your medic groups will now impose this rule whenever you place them.
+Masks will block the spread of the disease to adjacent tiles (connected by walls)  
+
+:: hygiene {"position":"550,600","size":"100,100"}
+You have chosen to impose strict hygienerules among the crew. Your medic groups will now impose this rule whenever you place them.
+
+Hygiene will block the spread of the disease to neighboring tiles (connected by corners)
+
+:: quarantine {"position":"550,600","size":"100,100"}
+You have chosen to impose full quarantine protocol among the crew. Your medic groups will now impose this rule whenever you place them.
+
+Quarantine will block the spread of the disease in all directions. However, it will raise tensions among the crew.

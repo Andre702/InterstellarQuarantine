@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public float scrollSpeed = 5f; // Adjust the scrolling speed as needed
-    public float scrollEdgeSize = 25f; // Adjust the edge size where scrolling starts
+    public float scrollSpeed = 20f; // Adjust the scrolling speed as needed
+    public float scrollEdgeSize = 20f; // Adjust the edge size where scrolling starts
 
     void Update()
     {

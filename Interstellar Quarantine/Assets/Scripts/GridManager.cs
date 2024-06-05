@@ -22,12 +22,25 @@ public class GridManager : MonoBehaviour
 
     public Dictionary<(int x, int y), Tile> tileSet;
 
+    public static GridManager instance { get; private set; }
 
+    public MedicsDeploySquare doctorSquare;
+    public MedicsDeploySquare captainSquare;
 
+    void Awake()
+    {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
+        instance = this;
 
+        DontDestroyOnLoad(gameObject);
+    }
 
-    private void Start()
+    public void StartGrid()
     {
         tileSize = tileTemplate.GetComponent<RectTransform>().sizeDelta.x;
         if (tileMapString.Length > 0)
@@ -37,7 +50,7 @@ public class GridManager : MonoBehaviour
             height = tileMap.GetLength(0);
 
             CreateGridFromMap(tileMap);
-            
+
         }
         else
         {
@@ -58,12 +71,14 @@ public class GridManager : MonoBehaviour
             for (int x = 0; x < _width; x++)
             {
                 var newTile = Instantiate(tileTemplate, mainCanvasGroup);
+                newTile.canBeInfected = true;
                 newTile.name = $"Tile {x}, {y}";
-                newTile.transform.localPosition = new Vector3
+                Vector3 coordinates = new Vector3
                     (
-                    x * (tileSize + tileSpacing), 
-                    ((_height-1) - y) * (tileSize + tileSpacing)
+                    x * (tileSize + tileSpacing),
+                    ((_height - 1) - y) * (tileSize + tileSpacing)
                     );
+                newTile.transform.localPosition = coordinates;
                 // y position is inverted because in Unity Y numbers grow upwards and I hate it.
 
                 newTile.GetComponent<Tile>().SetCoordinates(x, y);
@@ -72,8 +87,15 @@ public class GridManager : MonoBehaviour
                 GameManager.OnNextTurn += newTile.NewTurn;
 
                 tileSet[new (x, y)] = newTile;
+
+                //var tileDuuble = Instantiate(tileTemplate, mainCanvasGroup);
+                //tileDuuble.canBeInfected = true;
+                //tileDuuble.name = $"Tile {x}, {y} - double";
+                //tileDuuble.transform.localPosition = coordinates;
             }
         }
+
+        var extraTile = Instantiate(tileTemplate, mainCanvasGroup);
 
     }
     // Creates a square tileset from point 0,0 of the tileSet group
@@ -172,38 +194,213 @@ public class GridManager : MonoBehaviour
     }
     // Returns a tile from given position x and y
 
-    public void SpreadDisease1(Vector2 direction)
+    public void SpreadDisease1(List<Vector2> directions)
     {
-        if (direction == null)
+        if (directions.Count == 0)
         {
             return;
         }
 
-        direction.y *= -1;
+        for (int i = 0; i < directions.Count; i++)
+        {
+            Vector2 direction = directions[i];
+            direction.y *= -1;
+            directions[i] = direction;
+        }
+
+        
         // y position is inverted because in Unity Y numbers grow upwards and I hate it.
 
+        bool diseaseHasSpread = false;
+        for (int i = 0; i < directions.Count; i++)
+        {
+            Vector2 direction = directions[i];
+            for (int y = 0; y < height; y++)
+            {
+                for (int x = 0; x < width; x++)
+                {
+                    Tile targetTile = GetTile(x, y);
+
+                    if (targetTile != null && targetTile.infecting) // change infection stage to infecting)
+                    {
+                        if (targetTile.medicPresent)
+                        {
+                            if (DirectionIsBeingBlocked(direction))
+                            {
+                                continue;
+                            }
+                        }
+
+                        if (InfectTile(x + (int)direction.x, y + (int)direction.y))
+                        {
+                            diseaseHasSpread = true;
+                        }
+                    }
+                }
+            }
+        }
+        
+
+        if (!diseaseHasSpread)
+        {
+            StartInfection();
+            StartInfection();
+        }
+    }
+
+    public bool DirectionIsBeingBlocked(Vector2 direction)
+    {
+        foreach (Vector2 compareDirection in GameManager.instance.blockingDirections)
+        {
+            //here the compareDirections would be inverted but since the blocking is done in groups of adjacend or neighbouring it will be fine
+            if (direction == compareDirection)
+            {
+                if (GameManager.instance.blockingDirections.Count > 7)
+                {
+                    GameManager.instance.riotMeter -= 0.2f;
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public bool StartInfection()
+    {
+        // For this to work with string map it needs a check of a null for a tile or a list of existing infectable tile
+        int allowedAttemptsToFindSpot = 10;
+
+        int targetX = Random.Range(0, width);
+        int targetY = Random.Range(0, height);
+
+
+        for (int i = 0; i < allowedAttemptsToFindSpot; i++)
+        {
+            if (!NeighbourhoodAlreadyInfected(targetX, targetY))
+            {
+                break;
+            }
+
+            // else reshuffle coordinates
+            targetX = Random.Range(0, width);
+            targetY = Random.Range(0, height);
+        }
+
+        if (!GetTile(targetX, targetY).canBeInfected)
+        {
+            (targetX, targetY) = FirstInfectableTileCoordinates();
+            if (targetX < 0 && targetY < 0)
+            {
+                // GAME HAS ENDED EVERYONE IS IMMUNE ------------------------------------------
+                return false;
+            }
+        }
+
+        InfectTile(targetX, targetY);
+
+        return true;
+    }
+
+    public (int, int) FirstInfectableTileCoordinates()
+    {
         for (int y = 0; y < height; y++)
         {
             for (int x = 0; x < width; x++)
             {
-                Tile targetTile = GetTile(x, y);
-
-                if (targetTile != null && targetTile.infecting) // change infection stage to infecting)
+                if (GetTile(x, y).canBeInfected)
                 {
-                    InfectTile(x + (int)direction.x, y + (int)direction.y);
+                    return (x, y);
                 }
             }
         }
+        return (-1, -1);
     }
 
-    public void InfectTile(int x, int y)
+    public bool NeighbourhoodAlreadyInfected(int targetX, int targetY)
+    {
+        for (int x = (targetX - 1); x <= (targetX + 1); x++)
+        {
+            for (int y = (targetY - 1); y <= (targetY + 1); y++)
+            {
+                Tile neighborTile = GetTile(x, y);
+                if (neighborTile != null)
+                {
+                    if (neighborTile.infectionStage > 0)
+                    {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    public bool InfectTile(int x, int y)
     {
         Tile selectedTile = GetTile(x, y);
         if (selectedTile != null)
         {
             selectedTile.Infect();
+            return true;
+            //if (!selectedTile.medicPresent)
+            //{
+                
+            //}
+            
         }
-        
+        return false;
+    }
+
+    public bool DispatchMedics(int targetX, int targetY)
+    {
+        if (GameManager.instance.MedicsAdd(-1))
+        {
+            if (targetX == -1 && targetY == -1)
+            {
+                return true;
+            }
+
+            int distance = GameManager.instance.medicsRangeOfInfluence;
+            for (int x = (targetX - distance); x <= (targetX + distance); x++)
+            {
+                for (int y = (targetY - distance); y <= (targetY + distance); y++)
+                {
+                    Tile affectedTile = GetTile(x, y);
+                    if (affectedTile != null)
+                    {
+                        affectedTile.MedicDispatched(true);
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    public void ReturnAllMedics()
+    {
+        doctorSquare.hasMedic = false;
+        doctorSquare.UpdateImage();
+
+        captainSquare.hasMedic = false;
+        captainSquare.UpdateImage();
+
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                Tile tileTarget = GetTile(x, y);
+                if (tileTarget != null)
+                {
+                    if (tileTarget.medicPresent)
+                    {
+                        tileTarget.MedicDispatched(false);
+                    }
+                }
+            }
+        }
     }
 
     private void OnDestroy()
